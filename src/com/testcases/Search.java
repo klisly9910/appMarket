@@ -11,7 +11,7 @@ import com.android.uiautomator.core.UiSelector;
 import com.android.uiautomator.testrunner.UiAutomatorTestCase;
 import com.inputmethod.Utf7ImeHelper;
 
-public class Search01 extends UiAutomatorTestCase {
+public class Search extends UiAutomatorTestCase {
 	/**
 	 * 打开机锋市场
 	 */
@@ -30,9 +30,10 @@ public class Search01 extends UiAutomatorTestCase {
 	}
 
 	/**
-	 * 点击搜索框->>输入不存在的appname(大富豪)->>点击搜索按钮->>判断是否存在(敬请期待~)提示信息
-	 * 在搜索结果，搜索框输入(百度)->>点击搜索按钮->>遍历搜索结果->>取出搜索结果可见的APP名字 搜索结果，判断第一个app按钮状态并点击按钮
-	 * 搜索(百度音乐)->>点击搜索结果第一个APP进入详情页->>验证详情页appname与点击的appname一致
+	 * -点击搜索框->>输入不存在的appname(大富豪)->>点击搜索按钮->>判断是否存在(敬请期待~)提示信息
+	 * -在搜索结果，搜索框输入(百度)->>点击搜索按钮->>遍历搜索结果->>取出搜索结果可见的APP名字
+	 * 搜索结果，通过遍历点击appname进入详情页
+	 * -判断第一个app按钮状态并点击按钮(状态为[安装]不点击)
 	 * 
 	 * @throws UiObjectNotFoundException
 	 */
@@ -62,8 +63,18 @@ public class Search01 extends UiAutomatorTestCase {
 			for (int i = 0; i < count; i++) {
 				UiObject appname = new UiObject(new UiSelector().resourceId(
 						"com.mappn.gfan:id/appNameText").instance(i));
+				// UiObject detailAppName = new UiObject(new UiSelector()
+				// .resourceId("com.mappn.gfan:id/appNameText")
+				// .instance(i));
 				if (appname.exists()) {
 					appnames.add(i, appname.getText());
+					appname.click();
+					// assertEquals(appname.getText(), detailAppName.getText());
+					new UiObject(
+							new UiSelector()
+									.className("android.widget.ImageButton"))
+							.click();
+
 				}
 
 			}
@@ -92,21 +103,6 @@ public class Search01 extends UiAutomatorTestCase {
 			Assert.assertEquals("安装", actionText.getText());
 			System.out.println("button status is install");
 		}
-		new UiObject(new UiSelector().resourceId("com.mappn.gfan:id/keyText"))
-				.click();
-		new UiObject(
-				new UiSelector().resourceId("com.mappn.gfan:id/searchEdit"))
-				.setText(Utf7ImeHelper.e("百度音乐"));
-		new UiObject(new UiSelector().resourceId("com.mappn.gfan:id/searchBtn"))
-				.click();
-		UiObject clickapp = new UiObject(
-				new UiSelector().resourceId("com.mappn.gfan:id/appNameText"));
-		String clickappName = clickapp.getText();
-		clickapp.click();
-		String afterClickName = clickapp.getText();
-		Assert.assertEquals(clickappName, afterClickName);
-		new UiObject(new UiSelector().className("android.widget.ImageButton"))
-				.click();
 
 	}
 
