@@ -21,19 +21,18 @@ public class Search extends UiAutomatorTestCase {
 	}
 
 	/**
-	 * 返回机锋市场首页
+	 * -退出机锋市场
 	 */
 	public void tearDown() throws UiObjectNotFoundException {
-		new UiObject(new UiSelector().resourceId("com.mappn.gfan:id/backBtn"))
-				.click();
+		UiDevice.getInstance().pressBack();
+		UiDevice.getInstance().pressBack();
 
 	}
 
 	/**
 	 * -点击搜索框->>输入不存在的appname(大富豪)->>点击搜索按钮->>判断是否存在(敬请期待~)提示信息
 	 * -在搜索结果，搜索框输入(百度)->>点击搜索按钮->>遍历搜索结果->>取出搜索结果可见的APP名字
-	 * 搜索结果，通过遍历点击appname进入详情页
-	 * -判断第一个app按钮状态并点击按钮(状态为[安装]不点击)
+	 * 搜索结果，通过遍历点击appname进入详情页 -判断第一个app按钮状态并点击按钮(状态为[安装]不点击) -返回机锋市场首页
 	 * 
 	 * @throws UiObjectNotFoundException
 	 */
@@ -103,7 +102,36 @@ public class Search extends UiAutomatorTestCase {
 			Assert.assertEquals("安装", actionText.getText());
 			System.out.println("button status is install");
 		}
+		new UiObject(new UiSelector().resourceId("com.mappn.gfan:id/backBtn"))
+				.click();
 
+	}
+
+	/**
+	 * -输入搜索关键字->>点击搜索按钮->>验证详情页的appname与点击前的appname是否一致
+	 * 
+	 * @throws UiObjectNotFoundException
+	 */
+	public void testAppName() throws UiObjectNotFoundException {
+		new UiObject(new UiSelector().resourceId("com.mappn.gfan:id/keyText"))
+				.click();
+		new UiObject(
+				new UiSelector().resourceId("com.mappn.gfan:id/searchEdit"))
+				.setText(Utf7ImeHelper.e("机锋市场"));
+		new UiObject(new UiSelector().resourceId("com.mappn.gfan:id/searchBtn"))
+				.click();
+		UiObject beforeAppName = new UiObject(
+				new UiSelector().resourceId("com.mappn.gfan:id/appNameText"));
+		String beforeAppNamaText = beforeAppName.getText();
+		beforeAppName.click();
+		UiObject afterAppName = new UiObject(
+				new UiSelector().resourceId("com.mappn.gfan:id/appNameText"));
+		String afterAppNameText = afterAppName.getText();
+		assertEquals(beforeAppNamaText, afterAppNameText);
+		new UiObject(new UiSelector().className("android.widget.ImageButton"))
+				.click();
+		new UiObject(new UiSelector().resourceId("com.mappn.gfan:id/backBtn"))
+				.click();
 	}
 
 }
