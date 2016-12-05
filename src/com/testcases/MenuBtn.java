@@ -71,8 +71,8 @@ public class MenuBtn extends UiAutomatorTestCase {
 	}
 
 	/**
-	 * 验证点：侧拉菜单-我的页面(登录/未登录) 测试过程： -未登录账号：遍历个人中心->>点击每一个页面->>验证登录按钮是否存在
-	 * 
+	 * 验证点：侧拉菜单-我的页面(登录/未登录) 测试过程： -未登录账号：遍历个人中心->>点击每一个页面->>验证登录按钮存在
+	 * -已登录：验证积分存在
 	 * @throws UiObjectNotFoundException
 	 */
 	public void testPersonCenter() throws UiObjectNotFoundException {
@@ -82,6 +82,7 @@ public class MenuBtn extends UiAutomatorTestCase {
 		my.click();
 		UiObject pleaseLogin = new UiObject(
 				new UiSelector().resourceId("com.mappn.gfan:id/tv_name"));
+		UiObject jifen = new UiObject(new UiSelector().resourceId("com.mappn.gfan:id/tv_jifen"));
 		if (pleaseLogin.getText().equals("请登录")) {
 			UiCollection logged = new UiCollection(
 					new UiSelector()
@@ -106,6 +107,9 @@ public class MenuBtn extends UiAutomatorTestCase {
 						+ personCenterList);
 
 			}
+		}else if(jifen.exists()){
+			System.out.println("has signIn");
+			
 		}
 		UiDevice.getInstance().pressBack();
 	}
