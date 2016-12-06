@@ -1,0 +1,3539 @@
+$PATH
+Added file E:\GitHub\appMarket\build.xml
+Buildfile: E:\GitHub\appMarket\build.xml
+
+-check-env:
+ [checkenv] Android SDK Tools Revision 22.2.1
+ [checkenv] Installed at D:\adt-bundle-windows-x86_64-20130917\sdk
+
+-build-setup:
+[getbuildtools] Using latest Build Tools: 18.1.0
+     [echo] Resolving Build Target for Gfan...
+[getuitarget] Project Target:   Android 4.3
+[getuitarget] API level:        18
+     [echo] ----------
+     [echo] Creating output directories if needed...
+    [mkdir] Created dir: E:\GitHub\appMarket\bin\classes
+
+-pre-compile:
+
+compile:
+    [javac] Compiling 12 source files to E:\GitHub\appMarket\bin\classes
+    [javac] ����: [options] Դֵ1.5�ѹ�ʱ, ����δ�����з��а���ɾ��
+    [javac] ����: [options] Ŀ��ֵ1.5�ѹ�ʱ, ����δ�����з��а���ɾ��
+    [javac] ����: [options] Ҫ�����й��ѹ�ʱѡ��ľ���, ��ʹ�� -Xlint:-options��
+    [javac] E:\GitHub\appMarket\src\com\elementdata\parse\ConfigData.java:5: ����: �����org.apache.commons.io������
+    [javac] import org.apache.commons.io.FileUtils;
+    [javac]                             ^
+    [javac] E:\GitHub\appMarket\src\com\elementdata\parse\ConfigData.java:6: ����: �����org.apache.commons.io������
+    [javac] import static org.apache.commons.io.FileUtils.*;
+    [javac]                                    ^
+    [javac] E:\GitHub\appMarket\src\com\elementdata\parse\ConfigData.java:8: ����: �����com.google.gson������
+    [javac] import com.google.gson.Gson;
+    [javac]                       ^
+    [javac] E:\GitHub\appMarket\src\com\elementdata\parse\ConfigData.java:12: ����: �Ҳ�������
+    [javac] 	    private Gson gson = new Gson();
+    [javac] 	            ^
+    [javac]   ����:   �� Gson
+    [javac]   λ��: �� ConfigData
+    [javac] E:\GitHub\appMarket\src\com\elementdata\parse\ConfigData.java:12: ����: �Ҳ�������
+    [javac] 	    private Gson gson = new Gson();
+    [javac] 	                            ^
+    [javac]   ����:   �� Gson
+    [javac]   λ��: �� ConfigData
+    [javac] E:\GitHub\appMarket\src\com\elementdata\parse\ConfigData.java:37: ����: �Ҳ�������
+    [javac] 	            data = readFileToString(new File("E://GitHub//appMarket//Elements//gfan.json"));
+    [javac] 	                   ^
+    [javac]   ����:   ���� readFileToString(File)
+    [javac]   λ��: �� ConfigData
+    [javac] ע: E:\GitHub\appMarket\src\com\inputmethod\CharsetProvider.javaʹ����δ�����򲻰�ȫ�Ĳ�����
+    [javac] ע: �й���ϸ��Ϣ, ��ʹ�� -Xlint:unchecked ���±��롣
+    [javac] 6 ������
+    [javac] 3 ������
+
+BUILD FAILED
+D:\adt-bundle-windows-x86_64-20130917\sdk\tools\ant\uibuild.xml:183: Compile failed; see the compiler error output for details.
+
+Total time: 4 seconds
+cannot stat 'E:\GitHub\appMarket\bin\Gfan.jar': No such file or directory
+Error: /data/local/tmp/Gfan.jar does not exist
+
+Usage: uiautomator <subcommand> [options]
+
+
+
+Available subcommands:
+
+
+
+help: displays help message
+
+
+
+runtest: executes UI automation tests
+
+    runtest <class spec> [options]
+
+    <class spec>: <JARS> < -c <CLASSES> | -e class <CLASSES> >
+
+      <JARS>: a list of jar files containing test classes and dependencies. If
+
+        the path is relative, it's assumed to be under /data/local/tmp. Use
+
+        absolute path if the file is elsewhere. Multiple files can be
+
+        specified, separated by space.
+
+      <CLASSES>: a list of test class names to run, separated by comma. To
+
+        a single method, use TestClass#testMethod format. The -e or -c option
+
+        may be repeated. This option is not required and if not provided then
+
+        all the tests in provided jars will be run automatically.
+
+    options:
+
+      --nohup: trap SIG_HUP, so test won't terminate even if parent process
+
+               is terminated, e.g. USB is disconnected.
+
+      -e debug [true|false]: wait for debugger to connect before starting.
+
+      -e runner [CLASS]: use specified test runner class instead. If
+
+        unspecified, framework default runner will be used.
+
+      -e <NAME> <VALUE>: other name-value pairs to be passed to test classes.
+
+        May be repeated.
+
+      -e outputFormat simple | -s: enabled less verbose JUnit style output.
+
+
+
+dump: creates an XML dump of current UI hierarchy
+
+    dump [--verbose][file]
+
+      [--compressed]: dumps compressed layout information.
+
+      [file]: the location where the dumped XML should be stored, default is
+
+      /storage/emulated/legacy/window_dump.xml
+
+
+
+events: prints out accessibility events until terminated
+
+
+
+$PATH
+Updated file E:\GitHub\appMarket\build.xml
+Buildfile: E:\GitHub\appMarket\build.xml
+
+-check-env:
+ [checkenv] Android SDK Tools Revision 22.2.1
+ [checkenv] Installed at D:\adt-bundle-windows-x86_64-20130917\sdk
+
+-build-setup:
+[getbuildtools] Using latest Build Tools: 18.1.0
+     [echo] Resolving Build Target for Gfan...
+[getuitarget] Project Target:   Android 4.3
+[getuitarget] API level:        18
+     [echo] ----------
+     [echo] Creating output directories if needed...
+
+-pre-compile:
+
+compile:
+    [javac] Compiling 12 source files to E:\GitHub\appMarket\bin\classes
+    [javac] ����: [options] Դֵ1.5�ѹ�ʱ, ����δ�����з��а���ɾ��
+    [javac] ����: [options] Ŀ��ֵ1.5�ѹ�ʱ, ����δ�����з��а���ɾ��
+    [javac] ����: [options] Ҫ�����й��ѹ�ʱѡ��ľ���, ��ʹ�� -Xlint:-options��
+    [javac] E:\GitHub\appMarket\src\com\elementdata\parse\ConfigData.java:5: ����: �����org.apache.commons.io������
+    [javac] import org.apache.commons.io.FileUtils;
+    [javac]                             ^
+    [javac] E:\GitHub\appMarket\src\com\elementdata\parse\ConfigData.java:6: ����: �����org.apache.commons.io������
+    [javac] import static org.apache.commons.io.FileUtils.*;
+    [javac]                                    ^
+    [javac] E:\GitHub\appMarket\src\com\elementdata\parse\ConfigData.java:8: ����: �����com.google.gson������
+    [javac] import com.google.gson.Gson;
+    [javac]                       ^
+    [javac] E:\GitHub\appMarket\src\com\elementdata\parse\ConfigData.java:12: ����: �Ҳ�������
+    [javac] 	    private Gson gson = new Gson();
+    [javac] 	            ^
+    [javac]   ����:   �� Gson
+    [javac]   λ��: �� ConfigData
+    [javac] E:\GitHub\appMarket\src\com\inputmethod\Utf7ImeHelper.java:44: ����: �����com.beetstra.jutf7������
+    [javac] import com.beetstra.jutf7.CharsetProvider;
+    [javac]                          ^
+    [javac] E:\GitHub\appMarket\src\com\elementdata\parse\ConfigData.java:12: ����: �Ҳ�������
+    [javac] 	    private Gson gson = new Gson();
+    [javac] 	                            ^
+    [javac]   ����:   �� Gson
+    [javac]   λ��: �� ConfigData
+    [javac] E:\GitHub\appMarket\src\com\elementdata\parse\ConfigData.java:37: ����: �Ҳ�������
+    [javac] 	            data = readFileToString(new File("E://GitHub//appMarket//Elements//gfan.json"));
+    [javac] 	                   ^
+    [javac]   ����:   ���� readFileToString(File)
+    [javac]   λ��: �� ConfigData
+    [javac] ע: E:\GitHub\appMarket\src\com\inputmethod\CharsetProvider.javaʹ����δ�����򲻰�ȫ�Ĳ�����
+    [javac] ע: �й���ϸ��Ϣ, ��ʹ�� -Xlint:unchecked ���±��롣
+    [javac] 7 ������
+    [javac] 3 ������
+
+BUILD FAILED
+D:\adt-bundle-windows-x86_64-20130917\sdk\tools\ant\uibuild.xml:183: Compile failed; see the compiler error output for details.
+
+Total time: 4 seconds
+cannot stat 'E:\GitHub\appMarket\bin\Gfan.jar': No such file or directory
+Error: /data/local/tmp/Gfan.jar does not exist
+
+Usage: uiautomator <subcommand> [options]
+
+
+
+Available subcommands:
+
+
+
+help: displays help message
+
+
+
+runtest: executes UI automation tests
+
+    runtest <class spec> [options]
+
+    <class spec>: <JARS> < -c <CLASSES> | -e class <CLASSES> >
+
+      <JARS>: a list of jar files containing test classes and dependencies. If
+
+        the path is relative, it's assumed to be under /data/local/tmp. Use
+
+        absolute path if the file is elsewhere. Multiple files can be
+
+        specified, separated by space.
+
+      <CLASSES>: a list of test class names to run, separated by comma. To
+
+        a single method, use TestClass#testMethod format. The -e or -c option
+
+        may be repeated. This option is not required and if not provided then
+
+        all the tests in provided jars will be run automatically.
+
+    options:
+
+      --nohup: trap SIG_HUP, so test won't terminate even if parent process
+
+               is terminated, e.g. USB is disconnected.
+
+      -e debug [true|false]: wait for debugger to connect before starting.
+
+      -e runner [CLASS]: use specified test runner class instead. If
+
+        unspecified, framework default runner will be used.
+
+      -e <NAME> <VALUE>: other name-value pairs to be passed to test classes.
+
+        May be repeated.
+
+      -e outputFormat simple | -s: enabled less verbose JUnit style output.
+
+
+
+dump: creates an XML dump of current UI hierarchy
+
+    dump [--verbose][file]
+
+      [--compressed]: dumps compressed layout information.
+
+      [file]: the location where the dumped XML should be stored, default is
+
+      /storage/emulated/legacy/window_dump.xml
+
+
+
+events: prints out accessibility events until terminated
+
+
+
+$PATH
+Updated file E:\GitHub\appMarket\build.xml
+Buildfile: E:\GitHub\appMarket\build.xml
+
+-check-env:
+ [checkenv] Android SDK Tools Revision 22.2.1
+ [checkenv] Installed at D:\adt-bundle-windows-x86_64-20130917\sdk
+
+-build-setup:
+[getbuildtools] Using latest Build Tools: 18.1.0
+     [echo] Resolving Build Target for Gfan...
+[getuitarget] Project Target:   Android 4.3
+[getuitarget] API level:        18
+     [echo] ----------
+     [echo] Creating output directories if needed...
+
+-pre-compile:
+
+compile:
+    [javac] Compiling 12 source files to E:\GitHub\appMarket\bin\classes
+    [javac] ����: [options] Դֵ1.5�ѹ�ʱ, ����δ�����з��а���ɾ��
+    [javac] ����: [options] Ŀ��ֵ1.5�ѹ�ʱ, ����δ�����з��а���ɾ��
+    [javac] ����: [options] Ҫ�����й��ѹ�ʱѡ��ľ���, ��ʹ�� -Xlint:-options��
+    [javac] E:\GitHub\appMarket\src\com\elementdata\parse\ConfigData.java:5: ����: �����org.apache.commons.io������
+    [javac] import org.apache.commons.io.FileUtils;
+    [javac]                             ^
+    [javac] E:\GitHub\appMarket\src\com\elementdata\parse\ConfigData.java:6: ����: �����org.apache.commons.io������
+    [javac] import static org.apache.commons.io.FileUtils.*;
+    [javac]                                    ^
+    [javac] E:\GitHub\appMarket\src\com\elementdata\parse\ConfigData.java:8: ����: �����com.google.gson������
+    [javac] import com.google.gson.Gson;
+    [javac]                       ^
+    [javac] E:\GitHub\appMarket\src\com\elementdata\parse\ConfigData.java:12: ����: �Ҳ�������
+    [javac] 	    private Gson gson = new Gson();
+    [javac] 	            ^
+    [javac]   ����:   �� Gson
+    [javac]   λ��: �� ConfigData
+    [javac] E:\GitHub\appMarket\src\com\elementdata\parse\ConfigData.java:12: ����: �Ҳ�������
+    [javac] 	    private Gson gson = new Gson();
+    [javac] 	                            ^
+    [javac]   ����:   �� Gson
+    [javac]   λ��: �� ConfigData
+    [javac] E:\GitHub\appMarket\src\com\elementdata\parse\ConfigData.java:37: ����: �Ҳ�������
+    [javac] 	            data = readFileToString(new File("E://GitHub//appMarket//Elements//gfan.json"));
+    [javac] 	                   ^
+    [javac]   ����:   ���� readFileToString(File)
+    [javac]   λ��: �� ConfigData
+    [javac] ע: E:\GitHub\appMarket\src\com\inputmethod\CharsetProvider.javaʹ����δ�����򲻰�ȫ�Ĳ�����
+    [javac] ע: �й���ϸ��Ϣ, ��ʹ�� -Xlint:unchecked ���±��롣
+    [javac] 6 ������
+    [javac] 3 ������
+
+BUILD FAILED
+D:\adt-bundle-windows-x86_64-20130917\sdk\tools\ant\uibuild.xml:183: Compile failed; see the compiler error output for details.
+
+Total time: 5 seconds
+cannot stat 'E:\GitHub\appMarket\bin\Gfan.jar': No such file or directory
+Error: /data/local/tmp/Gfan.jar does not exist
+
+Usage: uiautomator <subcommand> [options]
+
+
+
+Available subcommands:
+
+
+
+help: displays help message
+
+
+
+runtest: executes UI automation tests
+
+    runtest <class spec> [options]
+
+    <class spec>: <JARS> < -c <CLASSES> | -e class <CLASSES> >
+
+      <JARS>: a list of jar files containing test classes and dependencies. If
+
+        the path is relative, it's assumed to be under /data/local/tmp. Use
+
+        absolute path if the file is elsewhere. Multiple files can be
+
+        specified, separated by space.
+
+      <CLASSES>: a list of test class names to run, separated by comma. To
+
+        a single method, use TestClass#testMethod format. The -e or -c option
+
+        may be repeated. This option is not required and if not provided then
+
+        all the tests in provided jars will be run automatically.
+
+    options:
+
+      --nohup: trap SIG_HUP, so test won't terminate even if parent process
+
+               is terminated, e.g. USB is disconnected.
+
+      -e debug [true|false]: wait for debugger to connect before starting.
+
+      -e runner [CLASS]: use specified test runner class instead. If
+
+        unspecified, framework default runner will be used.
+
+      -e <NAME> <VALUE>: other name-value pairs to be passed to test classes.
+
+        May be repeated.
+
+      -e outputFormat simple | -s: enabled less verbose JUnit style output.
+
+
+
+dump: creates an XML dump of current UI hierarchy
+
+    dump [--verbose][file]
+
+      [--compressed]: dumps compressed layout information.
+
+      [file]: the location where the dumped XML should be stored, default is
+
+      /storage/emulated/legacy/window_dump.xml
+
+
+
+events: prints out accessibility events until terminated
+
+
+
+$PATH
+Updated file E:\GitHub\appMarket\build.xml
+Buildfile: E:\GitHub\appMarket\build.xml
+
+-check-env:
+ [checkenv] Android SDK Tools Revision 22.2.1
+ [checkenv] Installed at D:\adt-bundle-windows-x86_64-20130917\sdk
+
+-build-setup:
+[getbuildtools] Using latest Build Tools: 18.1.0
+     [echo] Resolving Build Target for Gfan...
+[getuitarget] Project Target:   Android 4.3
+[getuitarget] API level:        18
+     [echo] ----------
+     [echo] Creating output directories if needed...
+
+-pre-compile:
+
+compile:
+    [javac] Compiling 1 source file to E:\GitHub\appMarket\bin\classes
+    [javac] ����: [options] Դֵ1.5�ѹ�ʱ, ����δ�����з��а���ɾ��
+    [javac] ����: [options] Ŀ��ֵ1.5�ѹ�ʱ, ����δ�����з��а���ɾ��
+    [javac] ����: [options] Ҫ�����й��ѹ�ʱѡ��ľ���, ��ʹ�� -Xlint:-options��
+    [javac] 3 ������
+
+-post-compile:
+
+-dex:
+      [dex] input: E:\GitHub\appMarket\bin\classes
+      [dex] Found Deleted Target File
+      [dex] Converting compiled files and external libraries into E:\GitHub\appMarket\bin\classes.dex...
+
+-post-dex:
+
+-jar:
+      [jar] Building jar: E:\GitHub\appMarket\bin\Gfan.jar
+
+-post-jar:
+
+build:
+
+BUILD SUCCESSFUL
+Total time: 8 seconds
+848 KB/s (11034 bytes in 0.012s)
+INSTRUMENTATION_STATUS: numtests=1
+
+INSTRUMENTATION_STATUS: stream=
+
+com.testcases.Gfan:
+
+INSTRUMENTATION_STATUS: id=UiAutomatorTestRunner
+
+INSTRUMENTATION_STATUS: test=testCase
+
+INSTRUMENTATION_STATUS: class=com.testcases.Gfan
+
+INSTRUMENTATION_STATUS: current=1
+
+INSTRUMENTATION_STATUS_CODE: 1
+
+INSTRUMENTATION_STATUS: numtests=1
+
+INSTRUMENTATION_STATUS: stream=
+
+Error in testCase:
+
+java.lang.NullPointerException
+
+	at com.testcases.Gfan.openGfan(Gfan.java:27)
+
+	at com.testcases.Gfan.testCase(Gfan.java:23)
+
+	at java.lang.reflect.Method.invokeNative(Native Method)
+
+	at com.android.uiautomator.testrunner.UiAutomatorTestRunner.start(UiAutomatorTestRunner.java:160)
+
+	at com.android.uiautomator.testrunner.UiAutomatorTestRunner.run(UiAutomatorTestRunner.java:96)
+
+	at com.android.commands.uiautomator.RunTestCommand.run(RunTestCommand.java:91)
+
+	at com.android.commands.uiautomator.Launcher.main(Launcher.java:83)
+
+	at com.android.internal.os.RuntimeInit.nativeFinishInit(Native Method)
+
+	at com.android.internal.os.RuntimeInit.main(RuntimeInit.java:243)
+
+	at dalvik.system.NativeStart.main(Native Method)
+
+
+
+INSTRUMENTATION_STATUS: id=UiAutomatorTestRunner
+
+INSTRUMENTATION_STATUS: test=testCase
+
+INSTRUMENTATION_STATUS: class=com.testcases.Gfan
+
+INSTRUMENTATION_STATUS: stack=java.lang.NullPointerException
+
+	at com.testcases.Gfan.openGfan(Gfan.java:27)
+
+	at com.testcases.Gfan.testCase(Gfan.java:23)
+
+	at java.lang.reflect.Method.invokeNative(Native Method)
+
+	at com.android.uiautomator.testrunner.UiAutomatorTestRunner.start(UiAutomatorTestRunner.java:160)
+
+	at com.android.uiautomator.testrunner.UiAutomatorTestRunner.run(UiAutomatorTestRunner.java:96)
+
+	at com.android.commands.uiautomator.RunTestCommand.run(RunTestCommand.java:91)
+
+	at com.android.commands.uiautomator.Launcher.main(Launcher.java:83)
+
+	at com.android.internal.os.RuntimeInit.nativeFinishInit(Native Method)
+
+	at com.android.internal.os.RuntimeInit.main(RuntimeInit.java:243)
+
+	at dalvik.system.NativeStart.main(Native Method)
+
+
+
+INSTRUMENTATION_STATUS: current=1
+
+INSTRUMENTATION_STATUS_CODE: -1
+
+INSTRUMENTATION_STATUS: stream=
+
+Test results for WatcherResultPrinter=.E
+
+Time: 0.135
+
+
+
+FAILURES!!!
+
+Tests run: 1,  Failures: 0,  Errors: 1
+
+
+
+
+
+INSTRUMENTATION_STATUS_CODE: -1
+
+$PATH
+Updated file E:\GitHub\appMarket\build.xml
+Buildfile: E:\GitHub\appMarket\build.xml
+
+-check-env:
+ [checkenv] Android SDK Tools Revision 22.2.1
+ [checkenv] Installed at D:\adt-bundle-windows-x86_64-20130917\sdk
+
+-build-setup:
+[getbuildtools] Using latest Build Tools: 18.1.0
+     [echo] Resolving Build Target for Gfan...
+[getuitarget] Project Target:   Android 4.3
+[getuitarget] API level:        18
+     [echo] ----------
+     [echo] Creating output directories if needed...
+
+-pre-compile:
+
+compile:
+    [javac] Compiling 1 source file to E:\GitHub\appMarket\bin\classes
+    [javac] ����: [options] Դֵ1.5�ѹ�ʱ, ����δ�����з��а���ɾ��
+    [javac] ����: [options] Ŀ��ֵ1.5�ѹ�ʱ, ����δ�����з��а���ɾ��
+    [javac] ����: [options] Ҫ�����й��ѹ�ʱѡ��ľ���, ��ʹ�� -Xlint:-options��
+    [javac] 3 ������
+
+-post-compile:
+
+-dex:
+      [dex] input: E:\GitHub\appMarket\bin\classes
+      [dex] Found Deleted Target File
+      [dex] Converting compiled files and external libraries into E:\GitHub\appMarket\bin\classes.dex...
+
+-post-dex:
+
+-jar:
+      [jar] Building jar: E:\GitHub\appMarket\bin\Gfan.jar
+
+-post-jar:
+
+build:
+
+BUILD SUCCESSFUL
+Total time: 5 seconds
+911 KB/s (10951 bytes in 0.011s)
+INSTRUMENTATION_STATUS: numtests=1
+
+INSTRUMENTATION_STATUS: stream=
+
+com.testcases.Gfan:
+
+INSTRUMENTATION_STATUS: id=UiAutomatorTestRunner
+
+INSTRUMENTATION_STATUS: test=testCase
+
+INSTRUMENTATION_STATUS: class=com.testcases.Gfan
+
+INSTRUMENTATION_STATUS: current=1
+
+INSTRUMENTATION_STATUS_CODE: 1
+
+INSTRUMENTATION_STATUS: numtests=1
+
+INSTRUMENTATION_STATUS: stream=.
+
+INSTRUMENTATION_STATUS: id=UiAutomatorTestRunner
+
+INSTRUMENTATION_STATUS: test=testCase
+
+INSTRUMENTATION_STATUS: class=com.testcases.Gfan
+
+INSTRUMENTATION_STATUS: current=1
+
+INSTRUMENTATION_STATUS_CODE: 0
+
+INSTRUMENTATION_STATUS: stream=
+
+Test results for WatcherResultPrinter=.
+
+Time: 2.317
+
+
+
+OK (1 test)
+
+
+
+
+
+INSTRUMENTATION_STATUS_CODE: -1
+
+$PATH
+Updated file E:\GitHub\appMarket\build.xml
+Buildfile: E:\GitHub\appMarket\build.xml
+
+-check-env:
+ [checkenv] Android SDK Tools Revision 22.2.1
+ [checkenv] Installed at D:\adt-bundle-windows-x86_64-20130917\sdk
+
+-build-setup:
+[getbuildtools] Using latest Build Tools: 18.1.0
+     [echo] Resolving Build Target for Gfan...
+[getuitarget] Project Target:   Android 4.3
+[getuitarget] API level:        18
+     [echo] ----------
+     [echo] Creating output directories if needed...
+
+-pre-compile:
+
+compile:
+
+-post-compile:
+
+-dex:
+      [dex] input: E:\GitHub\appMarket\bin\classes
+      [dex] Found Deleted Target File
+      [dex] Converting compiled files and external libraries into E:\GitHub\appMarket\bin\classes.dex...
+
+-post-dex:
+
+-jar:
+      [jar] Building jar: E:\GitHub\appMarket\bin\Gfan.jar
+
+-post-jar:
+
+build:
+
+BUILD SUCCESSFUL
+Total time: 3 seconds
+1215 KB/s (10951 bytes in 0.008s)
+INSTRUMENTATION_STATUS: numtests=1
+
+INSTRUMENTATION_STATUS: stream=
+
+com.testcases.Gfan:
+
+INSTRUMENTATION_STATUS: id=UiAutomatorTestRunner
+
+INSTRUMENTATION_STATUS: test=testCase
+
+INSTRUMENTATION_STATUS: class=com.testcases.Gfan
+
+INSTRUMENTATION_STATUS: current=1
+
+INSTRUMENTATION_STATUS_CODE: 1
+
+INSTRUMENTATION_STATUS: numtests=1
+
+INSTRUMENTATION_STATUS: stream=
+
+Error in testCase:
+
+com.android.uiautomator.core.UiObjectNotFoundException: UiSelector[DESCRIPTION=机锋市场]
+
+	at com.android.uiautomator.core.UiObject.click(UiObject.java:392)
+
+	at com.testcases.Gfan.openGfan(Gfan.java:28)
+
+	at com.testcases.Gfan.testCase(Gfan.java:23)
+
+	at java.lang.reflect.Method.invokeNative(Native Method)
+
+	at com.android.uiautomator.testrunner.UiAutomatorTestRunner.start(UiAutomatorTestRunner.java:160)
+
+	at com.android.uiautomator.testrunner.UiAutomatorTestRunner.run(UiAutomatorTestRunner.java:96)
+
+	at com.android.commands.uiautomator.RunTestCommand.run(RunTestCommand.java:91)
+
+	at com.android.commands.uiautomator.Launcher.main(Launcher.java:83)
+
+	at com.android.internal.os.RuntimeInit.nativeFinishInit(Native Method)
+
+	at com.android.internal.os.RuntimeInit.main(RuntimeInit.java:243)
+
+	at dalvik.system.NativeStart.main(Native Method)
+
+
+
+INSTRUMENTATION_STATUS: id=UiAutomatorTestRunner
+
+INSTRUMENTATION_STATUS: test=testCase
+
+INSTRUMENTATION_STATUS: class=com.testcases.Gfan
+
+INSTRUMENTATION_STATUS: stack=com.android.uiautomator.core.UiObjectNotFoundException: UiSelector[DESCRIPTION=机锋市场]
+
+	at com.android.uiautomator.core.UiObject.click(UiObject.java:392)
+
+	at com.testcases.Gfan.openGfan(Gfan.java:28)
+
+	at com.testcases.Gfan.testCase(Gfan.java:23)
+
+	at java.lang.reflect.Method.invokeNative(Native Method)
+
+	at com.android.uiautomator.testrunner.UiAutomatorTestRunner.start(UiAutomatorTestRunner.java:160)
+
+	at com.android.uiautomator.testrunner.UiAutomatorTestRunner.run(UiAutomatorTestRunner.java:96)
+
+	at com.android.commands.uiautomator.RunTestCommand.run(RunTestCommand.java:91)
+
+	at com.android.commands.uiautomator.Launcher.main(Launcher.java:83)
+
+	at com.android.internal.os.RuntimeInit.nativeFinishInit(Native Method)
+
+	at com.android.internal.os.RuntimeInit.main(RuntimeInit.java:243)
+
+	at dalvik.system.NativeStart.main(Native Method)
+
+
+
+INSTRUMENTATION_STATUS: current=1
+
+INSTRUMENTATION_STATUS_CODE: -1
+
+INSTRUMENTATION_STATUS: stream=
+
+Test results for WatcherResultPrinter=.E
+
+Time: 12.042
+
+
+
+FAILURES!!!
+
+Tests run: 1,  Failures: 0,  Errors: 1
+
+
+
+
+
+INSTRUMENTATION_STATUS_CODE: -1
+
+$PATH
+Updated file E:\GitHub\appMarket\build.xml
+Buildfile: E:\GitHub\appMarket\build.xml
+
+-check-env:
+ [checkenv] Android SDK Tools Revision 22.2.1
+ [checkenv] Installed at D:\adt-bundle-windows-x86_64-20130917\sdk
+
+-build-setup:
+[getbuildtools] Using latest Build Tools: 18.1.0
+     [echo] Resolving Build Target for Gfan...
+[getuitarget] Project Target:   Android 4.3
+[getuitarget] API level:        18
+     [echo] ----------
+     [echo] Creating output directories if needed...
+
+-pre-compile:
+
+compile:
+
+-post-compile:
+
+-dex:
+      [dex] input: E:\GitHub\appMarket\bin\classes
+      [dex] Found Deleted Target File
+      [dex] Converting compiled files and external libraries into E:\GitHub\appMarket\bin\classes.dex...
+
+-post-dex:
+
+-jar:
+      [jar] Building jar: E:\GitHub\appMarket\bin\Gfan.jar
+
+-post-jar:
+
+build:
+
+BUILD SUCCESSFUL
+Total time: 6 seconds
+841 KB/s (10951 bytes in 0.012s)
+INSTRUMENTATION_STATUS: numtests=1
+
+INSTRUMENTATION_STATUS: stream=
+
+com.testcases.Gfan:
+
+INSTRUMENTATION_STATUS: id=UiAutomatorTestRunner
+
+INSTRUMENTATION_STATUS: test=testCase
+
+INSTRUMENTATION_STATUS: class=com.testcases.Gfan
+
+INSTRUMENTATION_STATUS: current=1
+
+INSTRUMENTATION_STATUS_CODE: 1
+
+INSTRUMENTATION_STATUS: numtests=1
+
+INSTRUMENTATION_STATUS: stream=.
+
+INSTRUMENTATION_STATUS: id=UiAutomatorTestRunner
+
+INSTRUMENTATION_STATUS: test=testCase
+
+INSTRUMENTATION_STATUS: class=com.testcases.Gfan
+
+INSTRUMENTATION_STATUS: current=1
+
+INSTRUMENTATION_STATUS_CODE: 0
+
+INSTRUMENTATION_STATUS: stream=
+
+Test results for WatcherResultPrinter=.
+
+Time: 2.51
+
+
+
+OK (1 test)
+
+
+
+
+
+INSTRUMENTATION_STATUS_CODE: -1
+
+$PATH
+Updated file E:\GitHub\appMarket\build.xml
+Buildfile: E:\GitHub\appMarket\build.xml
+
+-check-env:
+ [checkenv] Android SDK Tools Revision 22.2.1
+ [checkenv] Installed at D:\adt-bundle-windows-x86_64-20130917\sdk
+
+-build-setup:
+[getbuildtools] Using latest Build Tools: 18.1.0
+     [echo] Resolving Build Target for Gfan...
+[getuitarget] Project Target:   Android 4.3
+[getuitarget] API level:        18
+     [echo] ----------
+     [echo] Creating output directories if needed...
+
+-pre-compile:
+
+compile:
+    [javac] Compiling 1 source file to E:\GitHub\appMarket\bin\classes
+    [javac] ����: [options] Դֵ1.5�ѹ�ʱ, ����δ�����з��а���ɾ��
+    [javac] ����: [options] Ŀ��ֵ1.5�ѹ�ʱ, ����δ�����з��а���ɾ��
+    [javac] ����: [options] Ҫ�����й��ѹ�ʱѡ��ľ���, ��ʹ�� -Xlint:-options��
+    [javac] 3 ������
+
+-post-compile:
+
+-dex:
+      [dex] input: E:\GitHub\appMarket\bin\classes
+      [dex] Found Deleted Target File
+      [dex] Converting compiled files and external libraries into E:\GitHub\appMarket\bin\classes.dex...
+
+-post-dex:
+
+-jar:
+      [jar] Building jar: E:\GitHub\appMarket\bin\Gfan.jar
+
+-post-jar:
+
+build:
+
+BUILD SUCCESSFUL
+Total time: 9 seconds
+688 KB/s (11034 bytes in 0.015s)
+INSTRUMENTATION_STATUS: numtests=1
+
+INSTRUMENTATION_STATUS: stream=
+
+com.testcases.Gfan:
+
+INSTRUMENTATION_STATUS: id=UiAutomatorTestRunner
+
+INSTRUMENTATION_STATUS: test=testCase
+
+INSTRUMENTATION_STATUS: class=com.testcases.Gfan
+
+INSTRUMENTATION_STATUS: current=1
+
+INSTRUMENTATION_STATUS_CODE: 1
+
+INSTRUMENTATION_STATUS: numtests=1
+
+INSTRUMENTATION_STATUS: stream=
+
+Error in testCase:
+
+java.lang.NullPointerException
+
+	at com.testcases.Gfan.openGfan(Gfan.java:27)
+
+	at com.testcases.Gfan.testCase(Gfan.java:23)
+
+	at java.lang.reflect.Method.invokeNative(Native Method)
+
+	at com.android.uiautomator.testrunner.UiAutomatorTestRunner.start(UiAutomatorTestRunner.java:160)
+
+	at com.android.uiautomator.testrunner.UiAutomatorTestRunner.run(UiAutomatorTestRunner.java:96)
+
+	at com.android.commands.uiautomator.RunTestCommand.run(RunTestCommand.java:91)
+
+	at com.android.commands.uiautomator.Launcher.main(Launcher.java:83)
+
+	at com.android.internal.os.RuntimeInit.nativeFinishInit(Native Method)
+
+	at com.android.internal.os.RuntimeInit.main(RuntimeInit.java:243)
+
+	at dalvik.system.NativeStart.main(Native Method)
+
+
+
+INSTRUMENTATION_STATUS: id=UiAutomatorTestRunner
+
+INSTRUMENTATION_STATUS: test=testCase
+
+INSTRUMENTATION_STATUS: class=com.testcases.Gfan
+
+INSTRUMENTATION_STATUS: stack=java.lang.NullPointerException
+
+	at com.testcases.Gfan.openGfan(Gfan.java:27)
+
+	at com.testcases.Gfan.testCase(Gfan.java:23)
+
+	at java.lang.reflect.Method.invokeNative(Native Method)
+
+	at com.android.uiautomator.testrunner.UiAutomatorTestRunner.start(UiAutomatorTestRunner.java:160)
+
+	at com.android.uiautomator.testrunner.UiAutomatorTestRunner.run(UiAutomatorTestRunner.java:96)
+
+	at com.android.commands.uiautomator.RunTestCommand.run(RunTestCommand.java:91)
+
+	at com.android.commands.uiautomator.Launcher.main(Launcher.java:83)
+
+	at com.android.internal.os.RuntimeInit.nativeFinishInit(Native Method)
+
+	at com.android.internal.os.RuntimeInit.main(RuntimeInit.java:243)
+
+	at dalvik.system.NativeStart.main(Native Method)
+
+
+
+INSTRUMENTATION_STATUS: current=1
+
+INSTRUMENTATION_STATUS_CODE: -1
+
+INSTRUMENTATION_STATUS: stream=
+
+Test results for WatcherResultPrinter=.E
+
+Time: 0.132
+
+
+
+FAILURES!!!
+
+Tests run: 1,  Failures: 0,  Errors: 1
+
+
+
+
+
+INSTRUMENTATION_STATUS_CODE: -1
+
+$PATH
+Updated file E:\GitHub\appMarket\build.xml
+Buildfile: E:\GitHub\appMarket\build.xml
+
+-check-env:
+ [checkenv] Android SDK Tools Revision 22.2.1
+ [checkenv] Installed at D:\adt-bundle-windows-x86_64-20130917\sdk
+
+-build-setup:
+[getbuildtools] Using latest Build Tools: 18.1.0
+     [echo] Resolving Build Target for Gfan...
+[getuitarget] Project Target:   Android 4.3
+[getuitarget] API level:        18
+     [echo] ----------
+     [echo] Creating output directories if needed...
+
+-pre-compile:
+
+compile:
+
+-post-compile:
+
+-dex:
+      [dex] input: E:\GitHub\appMarket\bin\classes
+      [dex] Found Deleted Target File
+      [dex] Converting compiled files and external libraries into E:\GitHub\appMarket\bin\classes.dex...
+
+-post-dex:
+
+-jar:
+      [jar] Building jar: E:\GitHub\appMarket\bin\Gfan.jar
+
+-post-jar:
+
+build:
+
+BUILD SUCCESSFUL
+Total time: 5 seconds
+787 KB/s (11034 bytes in 0.013s)
+INSTRUMENTATION_STATUS: numtests=1
+
+INSTRUMENTATION_STATUS: stream=
+
+com.testcases.Gfan:
+
+INSTRUMENTATION_STATUS: id=UiAutomatorTestRunner
+
+INSTRUMENTATION_STATUS: test=testCase
+
+INSTRUMENTATION_STATUS: class=com.testcases.Gfan
+
+INSTRUMENTATION_STATUS: current=1
+
+INSTRUMENTATION_STATUS_CODE: 1
+
+INSTRUMENTATION_STATUS: numtests=1
+
+INSTRUMENTATION_STATUS: stream=
+
+Error in testCase:
+
+java.lang.NullPointerException
+
+	at com.testcases.Gfan.openGfan(Gfan.java:27)
+
+	at com.testcases.Gfan.testCase(Gfan.java:23)
+
+	at java.lang.reflect.Method.invokeNative(Native Method)
+
+	at com.android.uiautomator.testrunner.UiAutomatorTestRunner.start(UiAutomatorTestRunner.java:160)
+
+	at com.android.uiautomator.testrunner.UiAutomatorTestRunner.run(UiAutomatorTestRunner.java:96)
+
+	at com.android.commands.uiautomator.RunTestCommand.run(RunTestCommand.java:91)
+
+	at com.android.commands.uiautomator.Launcher.main(Launcher.java:83)
+
+	at com.android.internal.os.RuntimeInit.nativeFinishInit(Native Method)
+
+	at com.android.internal.os.RuntimeInit.main(RuntimeInit.java:243)
+
+	at dalvik.system.NativeStart.main(Native Method)
+
+
+
+INSTRUMENTATION_STATUS: id=UiAutomatorTestRunner
+
+INSTRUMENTATION_STATUS: test=testCase
+
+INSTRUMENTATION_STATUS: class=com.testcases.Gfan
+
+INSTRUMENTATION_STATUS: stack=java.lang.NullPointerException
+
+	at com.testcases.Gfan.openGfan(Gfan.java:27)
+
+	at com.testcases.Gfan.testCase(Gfan.java:23)
+
+	at java.lang.reflect.Method.invokeNative(Native Method)
+
+	at com.android.uiautomator.testrunner.UiAutomatorTestRunner.start(UiAutomatorTestRunner.java:160)
+
+	at com.android.uiautomator.testrunner.UiAutomatorTestRunner.run(UiAutomatorTestRunner.java:96)
+
+	at com.android.commands.uiautomator.RunTestCommand.run(RunTestCommand.java:91)
+
+	at com.android.commands.uiautomator.Launcher.main(Launcher.java:83)
+
+	at com.android.internal.os.RuntimeInit.nativeFinishInit(Native Method)
+
+	at com.android.internal.os.RuntimeInit.main(RuntimeInit.java:243)
+
+	at dalvik.system.NativeStart.main(Native Method)
+
+
+
+INSTRUMENTATION_STATUS: current=1
+
+INSTRUMENTATION_STATUS_CODE: -1
+
+INSTRUMENTATION_STATUS: stream=
+
+Test results for WatcherResultPrinter=.E
+
+Time: 0.102
+
+
+
+FAILURES!!!
+
+Tests run: 1,  Failures: 0,  Errors: 1
+
+
+
+
+
+INSTRUMENTATION_STATUS_CODE: -1
+
+$PATH
+Updated file E:\GitHub\appMarket\build.xml
+Buildfile: E:\GitHub\appMarket\build.xml
+
+-check-env:
+ [checkenv] Android SDK Tools Revision 22.2.1
+ [checkenv] Installed at D:\adt-bundle-windows-x86_64-20130917\sdk
+
+-build-setup:
+[getbuildtools] Using latest Build Tools: 18.1.0
+     [echo] Resolving Build Target for Gfan...
+[getuitarget] Project Target:   Android 4.3
+[getuitarget] API level:        18
+     [echo] ----------
+     [echo] Creating output directories if needed...
+
+-pre-compile:
+
+compile:
+
+-post-compile:
+
+-dex:
+      [dex] input: E:\GitHub\appMarket\bin\classes
+      [dex] Found Deleted Target File
+      [dex] Converting compiled files and external libraries into E:\GitHub\appMarket\bin\classes.dex...
+
+-post-dex:
+
+-jar:
+      [jar] Building jar: E:\GitHub\appMarket\bin\Gfan.jar
+
+-post-jar:
+
+build:
+
+BUILD SUCCESSFUL
+Total time: 7 seconds
+648 KB/s (11034 bytes in 0.016s)
+INSTRUMENTATION_STATUS: numtests=1
+
+INSTRUMENTATION_STATUS: stream=
+
+com.testcases.Gfan:
+
+INSTRUMENTATION_STATUS: id=UiAutomatorTestRunner
+
+INSTRUMENTATION_STATUS: test=testCase
+
+INSTRUMENTATION_STATUS: class=com.testcases.Gfan
+
+INSTRUMENTATION_STATUS: current=1
+
+INSTRUMENTATION_STATUS_CODE: 1
+
+INSTRUMENTATION_STATUS: numtests=1
+
+INSTRUMENTATION_STATUS: stream=
+
+Error in testCase:
+
+java.lang.NullPointerException
+
+	at com.testcases.Gfan.openGfan(Gfan.java:27)
+
+	at com.testcases.Gfan.testCase(Gfan.java:23)
+
+	at java.lang.reflect.Method.invokeNative(Native Method)
+
+	at com.android.uiautomator.testrunner.UiAutomatorTestRunner.start(UiAutomatorTestRunner.java:160)
+
+	at com.android.uiautomator.testrunner.UiAutomatorTestRunner.run(UiAutomatorTestRunner.java:96)
+
+	at com.android.commands.uiautomator.RunTestCommand.run(RunTestCommand.java:91)
+
+	at com.android.commands.uiautomator.Launcher.main(Launcher.java:83)
+
+	at com.android.internal.os.RuntimeInit.nativeFinishInit(Native Method)
+
+	at com.android.internal.os.RuntimeInit.main(RuntimeInit.java:243)
+
+	at dalvik.system.NativeStart.main(Native Method)
+
+
+
+INSTRUMENTATION_STATUS: id=UiAutomatorTestRunner
+
+INSTRUMENTATION_STATUS: test=testCase
+
+INSTRUMENTATION_STATUS: class=com.testcases.Gfan
+
+INSTRUMENTATION_STATUS: stack=java.lang.NullPointerException
+
+	at com.testcases.Gfan.openGfan(Gfan.java:27)
+
+	at com.testcases.Gfan.testCase(Gfan.java:23)
+
+	at java.lang.reflect.Method.invokeNative(Native Method)
+
+	at com.android.uiautomator.testrunner.UiAutomatorTestRunner.start(UiAutomatorTestRunner.java:160)
+
+	at com.android.uiautomator.testrunner.UiAutomatorTestRunner.run(UiAutomatorTestRunner.java:96)
+
+	at com.android.commands.uiautomator.RunTestCommand.run(RunTestCommand.java:91)
+
+	at com.android.commands.uiautomator.Launcher.main(Launcher.java:83)
+
+	at com.android.internal.os.RuntimeInit.nativeFinishInit(Native Method)
+
+	at com.android.internal.os.RuntimeInit.main(RuntimeInit.java:243)
+
+	at dalvik.system.NativeStart.main(Native Method)
+
+
+
+INSTRUMENTATION_STATUS: current=1
+
+INSTRUMENTATION_STATUS_CODE: -1
+
+INSTRUMENTATION_STATUS: stream=
+
+Test results for WatcherResultPrinter=.E
+
+Time: 0.092
+
+
+
+FAILURES!!!
+
+Tests run: 1,  Failures: 0,  Errors: 1
+
+
+
+
+
+INSTRUMENTATION_STATUS_CODE: -1
+
+$PATH
+Updated file E:\GitHub\appMarket\build.xml
+Buildfile: E:\GitHub\appMarket\build.xml
+
+-check-env:
+ [checkenv] Android SDK Tools Revision 22.2.1
+ [checkenv] Installed at D:\adt-bundle-windows-x86_64-20130917\sdk
+
+-build-setup:
+[getbuildtools] Using latest Build Tools: 18.1.0
+     [echo] Resolving Build Target for Gfan...
+[getuitarget] Project Target:   Android 4.3
+[getuitarget] API level:        18
+     [echo] ----------
+     [echo] Creating output directories if needed...
+
+-pre-compile:
+
+compile:
+
+-post-compile:
+
+-dex:
+      [dex] input: E:\GitHub\appMarket\bin\classes
+      [dex] Found Deleted Target File
+      [dex] Converting compiled files and external libraries into E:\GitHub\appMarket\bin\classes.dex...
+
+-post-dex:
+
+-jar:
+      [jar] Building jar: E:\GitHub\appMarket\bin\Gfan.jar
+
+-post-jar:
+
+build:
+
+BUILD SUCCESSFUL
+Total time: 3 seconds
+1002 KB/s (11034 bytes in 0.010s)
+INSTRUMENTATION_STATUS: numtests=1
+
+INSTRUMENTATION_STATUS: stream=
+
+com.testcases.Gfan:
+
+INSTRUMENTATION_STATUS: id=UiAutomatorTestRunner
+
+INSTRUMENTATION_STATUS: test=testCase
+
+INSTRUMENTATION_STATUS: class=com.testcases.Gfan
+
+INSTRUMENTATION_STATUS: current=1
+
+INSTRUMENTATION_STATUS_CODE: 1
+
+INSTRUMENTATION_STATUS: numtests=1
+
+INSTRUMENTATION_STATUS: stream=
+
+Error in testCase:
+
+java.lang.NullPointerException
+
+	at com.testcases.Gfan.openGfan(Gfan.java:27)
+
+	at com.testcases.Gfan.testCase(Gfan.java:23)
+
+	at java.lang.reflect.Method.invokeNative(Native Method)
+
+	at com.android.uiautomator.testrunner.UiAutomatorTestRunner.start(UiAutomatorTestRunner.java:160)
+
+	at com.android.uiautomator.testrunner.UiAutomatorTestRunner.run(UiAutomatorTestRunner.java:96)
+
+	at com.android.commands.uiautomator.RunTestCommand.run(RunTestCommand.java:91)
+
+	at com.android.commands.uiautomator.Launcher.main(Launcher.java:83)
+
+	at com.android.internal.os.RuntimeInit.nativeFinishInit(Native Method)
+
+	at com.android.internal.os.RuntimeInit.main(RuntimeInit.java:243)
+
+	at dalvik.system.NativeStart.main(Native Method)
+
+
+
+INSTRUMENTATION_STATUS: id=UiAutomatorTestRunner
+
+INSTRUMENTATION_STATUS: test=testCase
+
+INSTRUMENTATION_STATUS: class=com.testcases.Gfan
+
+INSTRUMENTATION_STATUS: stack=java.lang.NullPointerException
+
+	at com.testcases.Gfan.openGfan(Gfan.java:27)
+
+	at com.testcases.Gfan.testCase(Gfan.java:23)
+
+	at java.lang.reflect.Method.invokeNative(Native Method)
+
+	at com.android.uiautomator.testrunner.UiAutomatorTestRunner.start(UiAutomatorTestRunner.java:160)
+
+	at com.android.uiautomator.testrunner.UiAutomatorTestRunner.run(UiAutomatorTestRunner.java:96)
+
+	at com.android.commands.uiautomator.RunTestCommand.run(RunTestCommand.java:91)
+
+	at com.android.commands.uiautomator.Launcher.main(Launcher.java:83)
+
+	at com.android.internal.os.RuntimeInit.nativeFinishInit(Native Method)
+
+	at com.android.internal.os.RuntimeInit.main(RuntimeInit.java:243)
+
+	at dalvik.system.NativeStart.main(Native Method)
+
+
+
+INSTRUMENTATION_STATUS: current=1
+
+INSTRUMENTATION_STATUS_CODE: -1
+
+INSTRUMENTATION_STATUS: stream=
+
+Test results for WatcherResultPrinter=.E
+
+Time: 0.088
+
+
+
+FAILURES!!!
+
+Tests run: 1,  Failures: 0,  Errors: 1
+
+
+
+
+
+INSTRUMENTATION_STATUS_CODE: -1
+
+$PATH
+Updated file E:\GitHub\appMarket\build.xml
+Buildfile: E:\GitHub\appMarket\build.xml
+
+-check-env:
+ [checkenv] Android SDK Tools Revision 22.2.1
+ [checkenv] Installed at D:\adt-bundle-windows-x86_64-20130917\sdk
+
+-build-setup:
+[getbuildtools] Using latest Build Tools: 18.1.0
+     [echo] Resolving Build Target for Gfan...
+[getuitarget] Project Target:   Android 4.3
+[getuitarget] API level:        18
+     [echo] ----------
+     [echo] Creating output directories if needed...
+
+-pre-compile:
+
+compile:
+    [javac] Compiling 1 source file to E:\GitHub\appMarket\bin\classes
+    [javac] ����: [options] Դֵ1.5�ѹ�ʱ, ����δ�����з��а���ɾ��
+    [javac] ����: [options] Ŀ��ֵ1.5�ѹ�ʱ, ����δ�����з��а���ɾ��
+    [javac] ����: [options] Ҫ�����й��ѹ�ʱѡ��ľ���, ��ʹ�� -Xlint:-options��
+    [javac] 3 ������
+
+-post-compile:
+
+-dex:
+      [dex] input: E:\GitHub\appMarket\bin\classes
+      [dex] Found Deleted Target File
+      [dex] Converting compiled files and external libraries into E:\GitHub\appMarket\bin\classes.dex...
+
+-post-dex:
+
+-jar:
+      [jar] Building jar: E:\GitHub\appMarket\bin\Gfan.jar
+
+-post-jar:
+
+build:
+
+BUILD SUCCESSFUL
+Total time: 6 seconds
+915 KB/s (11002 bytes in 0.011s)
+INSTRUMENTATION_STATUS: numtests=1
+
+INSTRUMENTATION_STATUS: stream=
+
+com.testcases.Gfan:
+
+INSTRUMENTATION_STATUS: id=UiAutomatorTestRunner
+
+INSTRUMENTATION_STATUS: test=testCase
+
+INSTRUMENTATION_STATUS: class=com.testcases.Gfan
+
+INSTRUMENTATION_STATUS: current=1
+
+INSTRUMENTATION_STATUS_CODE: 1
+
+INSTRUMENTATION_STATUS: numtests=1
+
+INSTRUMENTATION_STATUS: stream=
+
+Error in testCase:
+
+com.android.uiautomator.core.UiObjectNotFoundException: UiSelector[DESCRIPTION=机锋市场]
+
+	at com.android.uiautomator.core.UiObject.click(UiObject.java:392)
+
+	at com.testcases.Gfan.openGfan(Gfan.java:28)
+
+	at com.testcases.Gfan.testCase(Gfan.java:23)
+
+	at java.lang.reflect.Method.invokeNative(Native Method)
+
+	at com.android.uiautomator.testrunner.UiAutomatorTestRunner.start(UiAutomatorTestRunner.java:160)
+
+	at com.android.uiautomator.testrunner.UiAutomatorTestRunner.run(UiAutomatorTestRunner.java:96)
+
+	at com.android.commands.uiautomator.RunTestCommand.run(RunTestCommand.java:91)
+
+	at com.android.commands.uiautomator.Launcher.main(Launcher.java:83)
+
+	at com.android.internal.os.RuntimeInit.nativeFinishInit(Native Method)
+
+	at com.android.internal.os.RuntimeInit.main(RuntimeInit.java:243)
+
+	at dalvik.system.NativeStart.main(Native Method)
+
+
+
+INSTRUMENTATION_STATUS: id=UiAutomatorTestRunner
+
+INSTRUMENTATION_STATUS: test=testCase
+
+INSTRUMENTATION_STATUS: class=com.testcases.Gfan
+
+INSTRUMENTATION_STATUS: stack=com.android.uiautomator.core.UiObjectNotFoundException: UiSelector[DESCRIPTION=机锋市场]
+
+	at com.android.uiautomator.core.UiObject.click(UiObject.java:392)
+
+	at com.testcases.Gfan.openGfan(Gfan.java:28)
+
+	at com.testcases.Gfan.testCase(Gfan.java:23)
+
+	at java.lang.reflect.Method.invokeNative(Native Method)
+
+	at com.android.uiautomator.testrunner.UiAutomatorTestRunner.start(UiAutomatorTestRunner.java:160)
+
+	at com.android.uiautomator.testrunner.UiAutomatorTestRunner.run(UiAutomatorTestRunner.java:96)
+
+	at com.android.commands.uiautomator.RunTestCommand.run(RunTestCommand.java:91)
+
+	at com.android.commands.uiautomator.Launcher.main(Launcher.java:83)
+
+	at com.android.internal.os.RuntimeInit.nativeFinishInit(Native Method)
+
+	at com.android.internal.os.RuntimeInit.main(RuntimeInit.java:243)
+
+	at dalvik.system.NativeStart.main(Native Method)
+
+
+
+INSTRUMENTATION_STATUS: current=1
+
+INSTRUMENTATION_STATUS_CODE: -1
+
+INSTRUMENTATION_STATUS: stream=
+
+Test results for WatcherResultPrinter=.E
+
+Time: 11.997
+
+
+
+FAILURES!!!
+
+Tests run: 1,  Failures: 0,  Errors: 1
+
+
+
+
+
+INSTRUMENTATION_STATUS_CODE: -1
+
+$PATH
+Updated file E:\GitHub\appMarket\build.xml
+Buildfile: E:\GitHub\appMarket\build.xml
+
+-check-env:
+ [checkenv] Android SDK Tools Revision 22.2.1
+ [checkenv] Installed at D:\adt-bundle-windows-x86_64-20130917\sdk
+
+-build-setup:
+[getbuildtools] Using latest Build Tools: 18.1.0
+     [echo] Resolving Build Target for Gfan...
+[getuitarget] Project Target:   Android 4.3
+[getuitarget] API level:        18
+     [echo] ----------
+     [echo] Creating output directories if needed...
+
+-pre-compile:
+
+compile:
+
+-post-compile:
+
+-dex:
+      [dex] input: E:\GitHub\appMarket\bin\classes
+      [dex] Found Deleted Target File
+      [dex] Converting compiled files and external libraries into E:\GitHub\appMarket\bin\classes.dex...
+
+-post-dex:
+
+-jar:
+      [jar] Building jar: E:\GitHub\appMarket\bin\Gfan.jar
+
+-post-jar:
+
+build:
+
+BUILD SUCCESSFUL
+Total time: 6 seconds
+610 KB/s (11002 bytes in 0.017s)
+INSTRUMENTATION_STATUS: numtests=1
+
+INSTRUMENTATION_STATUS: stream=
+
+com.testcases.Gfan:
+
+INSTRUMENTATION_STATUS: id=UiAutomatorTestRunner
+
+INSTRUMENTATION_STATUS: test=testCase
+
+INSTRUMENTATION_STATUS: class=com.testcases.Gfan
+
+INSTRUMENTATION_STATUS: current=1
+
+INSTRUMENTATION_STATUS_CODE: 1
+
+INSTRUMENTATION_STATUS: numtests=1
+
+INSTRUMENTATION_STATUS: stream=
+
+Error in testCase:
+
+com.android.uiautomator.core.UiObjectNotFoundException: UiSelector[DESCRIPTION=机锋市场]
+
+	at com.android.uiautomator.core.UiObject.click(UiObject.java:392)
+
+	at com.testcases.Gfan.openGfan(Gfan.java:28)
+
+	at com.testcases.Gfan.testCase(Gfan.java:23)
+
+	at java.lang.reflect.Method.invokeNative(Native Method)
+
+	at com.android.uiautomator.testrunner.UiAutomatorTestRunner.start(UiAutomatorTestRunner.java:160)
+
+	at com.android.uiautomator.testrunner.UiAutomatorTestRunner.run(UiAutomatorTestRunner.java:96)
+
+	at com.android.commands.uiautomator.RunTestCommand.run(RunTestCommand.java:91)
+
+	at com.android.commands.uiautomator.Launcher.main(Launcher.java:83)
+
+	at com.android.internal.os.RuntimeInit.nativeFinishInit(Native Method)
+
+	at com.android.internal.os.RuntimeInit.main(RuntimeInit.java:243)
+
+	at dalvik.system.NativeStart.main(Native Method)
+
+
+
+INSTRUMENTATION_STATUS: id=UiAutomatorTestRunner
+
+INSTRUMENTATION_STATUS: test=testCase
+
+INSTRUMENTATION_STATUS: class=com.testcases.Gfan
+
+INSTRUMENTATION_STATUS: stack=com.android.uiautomator.core.UiObjectNotFoundException: UiSelector[DESCRIPTION=机锋市场]
+
+	at com.android.uiautomator.core.UiObject.click(UiObject.java:392)
+
+	at com.testcases.Gfan.openGfan(Gfan.java:28)
+
+	at com.testcases.Gfan.testCase(Gfan.java:23)
+
+	at java.lang.reflect.Method.invokeNative(Native Method)
+
+	at com.android.uiautomator.testrunner.UiAutomatorTestRunner.start(UiAutomatorTestRunner.java:160)
+
+	at com.android.uiautomator.testrunner.UiAutomatorTestRunner.run(UiAutomatorTestRunner.java:96)
+
+	at com.android.commands.uiautomator.RunTestCommand.run(RunTestCommand.java:91)
+
+	at com.android.commands.uiautomator.Launcher.main(Launcher.java:83)
+
+	at com.android.internal.os.RuntimeInit.nativeFinishInit(Native Method)
+
+	at com.android.internal.os.RuntimeInit.main(RuntimeInit.java:243)
+
+	at dalvik.system.NativeStart.main(Native Method)
+
+
+
+INSTRUMENTATION_STATUS: current=1
+
+INSTRUMENTATION_STATUS_CODE: -1
+
+INSTRUMENTATION_STATUS: stream=
+
+Test results for WatcherResultPrinter=.E
+
+Time: 13.376
+
+
+
+FAILURES!!!
+
+Tests run: 1,  Failures: 0,  Errors: 1
+
+
+
+
+
+INSTRUMENTATION_STATUS_CODE: -1
+
+$PATH
+Updated file E:\GitHub\appMarket\build.xml
+Buildfile: E:\GitHub\appMarket\build.xml
+
+-check-env:
+ [checkenv] Android SDK Tools Revision 22.2.1
+ [checkenv] Installed at D:\adt-bundle-windows-x86_64-20130917\sdk
+
+-build-setup:
+[getbuildtools] Using latest Build Tools: 18.1.0
+     [echo] Resolving Build Target for Gfan...
+[getuitarget] Project Target:   Android 4.3
+[getuitarget] API level:        18
+     [echo] ----------
+     [echo] Creating output directories if needed...
+
+-pre-compile:
+
+compile:
+    [javac] Compiling 1 source file to E:\GitHub\appMarket\bin\classes
+    [javac] ����: [options] Դֵ1.5�ѹ�ʱ, ����δ�����з��а���ɾ��
+    [javac] ����: [options] Ŀ��ֵ1.5�ѹ�ʱ, ����δ�����з��а���ɾ��
+    [javac] ����: [options] Ҫ�����й��ѹ�ʱѡ��ľ���, ��ʹ�� -Xlint:-options��
+    [javac] 3 ������
+
+-post-compile:
+
+-dex:
+      [dex] input: E:\GitHub\appMarket\bin\classes
+      [dex] Found Deleted Target File
+      [dex] Converting compiled files and external libraries into E:\GitHub\appMarket\bin\classes.dex...
+
+-post-dex:
+
+-jar:
+      [jar] Building jar: E:\GitHub\appMarket\bin\Gfan.jar
+
+-post-jar:
+
+build:
+
+BUILD SUCCESSFUL
+Total time: 9 seconds
+683 KB/s (10951 bytes in 0.015s)
+INSTRUMENTATION_STATUS: numtests=1
+
+INSTRUMENTATION_STATUS: stream=
+
+com.testcases.Gfan:
+
+INSTRUMENTATION_STATUS: id=UiAutomatorTestRunner
+
+INSTRUMENTATION_STATUS: test=testCase
+
+INSTRUMENTATION_STATUS: class=com.testcases.Gfan
+
+INSTRUMENTATION_STATUS: current=1
+
+INSTRUMENTATION_STATUS_CODE: 1
+
+INSTRUMENTATION_STATUS: numtests=1
+
+INSTRUMENTATION_STATUS: stream=.
+
+INSTRUMENTATION_STATUS: id=UiAutomatorTestRunner
+
+INSTRUMENTATION_STATUS: test=testCase
+
+INSTRUMENTATION_STATUS: class=com.testcases.Gfan
+
+INSTRUMENTATION_STATUS: current=1
+
+INSTRUMENTATION_STATUS_CODE: 0
+
+INSTRUMENTATION_STATUS: stream=
+
+Test results for WatcherResultPrinter=.
+
+Time: 2.495
+
+
+
+OK (1 test)
+
+
+
+
+
+INSTRUMENTATION_STATUS_CODE: -1
+
+$PATH
+Updated file E:\GitHub\appMarket\build.xml
+Buildfile: E:\GitHub\appMarket\build.xml
+
+-check-env:
+ [checkenv] Android SDK Tools Revision 22.2.1
+ [checkenv] Installed at D:\adt-bundle-windows-x86_64-20130917\sdk
+
+-build-setup:
+[getbuildtools] Using latest Build Tools: 18.1.0
+     [echo] Resolving Build Target for Gfan...
+[getuitarget] Project Target:   Android 4.3
+[getuitarget] API level:        18
+     [echo] ----------
+     [echo] Creating output directories if needed...
+
+-pre-compile:
+
+compile:
+    [javac] Compiling 1 source file to E:\GitHub\appMarket\bin\classes
+    [javac] ����: [options] Դֵ1.5�ѹ�ʱ, ����δ�����з��а���ɾ��
+    [javac] ����: [options] Ŀ��ֵ1.5�ѹ�ʱ, ����δ�����з��а���ɾ��
+    [javac] ����: [options] Ҫ�����й��ѹ�ʱѡ��ľ���, ��ʹ�� -Xlint:-options��
+    [javac] 3 ������
+
+-post-compile:
+
+-dex:
+      [dex] input: E:\GitHub\appMarket\bin\classes
+      [dex] Found Deleted Target File
+      [dex] Converting compiled files and external libraries into E:\GitHub\appMarket\bin\classes.dex...
+
+-post-dex:
+
+-jar:
+      [jar] Building jar: E:\GitHub\appMarket\bin\Gfan.jar
+
+-post-jar:
+
+build:
+
+BUILD SUCCESSFUL
+Total time: 8 seconds
+852 KB/s (11095 bytes in 0.012s)
+INSTRUMENTATION_STATUS: numtests=1
+
+INSTRUMENTATION_STATUS: stream=
+
+com.testcases.Gfan:
+
+INSTRUMENTATION_STATUS: id=UiAutomatorTestRunner
+
+INSTRUMENTATION_STATUS: test=testCase
+
+INSTRUMENTATION_STATUS: class=com.testcases.Gfan
+
+INSTRUMENTATION_STATUS: current=1
+
+INSTRUMENTATION_STATUS_CODE: 1
+
+INSTRUMENTATION_STATUS: numtests=1
+
+INSTRUMENTATION_STATUS: stream=
+
+Error in testCase:
+
+com.android.uiautomator.core.UiObjectNotFoundException: UiSelector[RESOURCE_ID=com.mappn.gfan:id/keyText]
+
+	at com.android.uiautomator.core.UiObject.clearTextField(UiObject.java:623)
+
+	at com.android.uiautomator.core.UiObject.setText(UiObject.java:595)
+
+	at com.testcases.Gfan.search(Gfan.java:31)
+
+	at com.testcases.Gfan.testCase(Gfan.java:22)
+
+	at java.lang.reflect.Method.invokeNative(Native Method)
+
+	at com.android.uiautomator.testrunner.UiAutomatorTestRunner.start(UiAutomatorTestRunner.java:160)
+
+	at com.android.uiautomator.testrunner.UiAutomatorTestRunner.run(UiAutomatorTestRunner.java:96)
+
+	at com.android.commands.uiautomator.RunTestCommand.run(RunTestCommand.java:91)
+
+	at com.android.commands.uiautomator.Launcher.main(Launcher.java:83)
+
+	at com.android.internal.os.RuntimeInit.nativeFinishInit(Native Method)
+
+	at com.android.internal.os.RuntimeInit.main(RuntimeInit.java:243)
+
+	at dalvik.system.NativeStart.main(Native Method)
+
+
+
+INSTRUMENTATION_STATUS: id=UiAutomatorTestRunner
+
+INSTRUMENTATION_STATUS: test=testCase
+
+INSTRUMENTATION_STATUS: class=com.testcases.Gfan
+
+INSTRUMENTATION_STATUS: stack=com.android.uiautomator.core.UiObjectNotFoundException: UiSelector[RESOURCE_ID=com.mappn.gfan:id/keyText]
+
+	at com.android.uiautomator.core.UiObject.clearTextField(UiObject.java:623)
+
+	at com.android.uiautomator.core.UiObject.setText(UiObject.java:595)
+
+	at com.testcases.Gfan.search(Gfan.java:31)
+
+	at com.testcases.Gfan.testCase(Gfan.java:22)
+
+	at java.lang.reflect.Method.invokeNative(Native Method)
+
+	at com.android.uiautomator.testrunner.UiAutomatorTestRunner.start(UiAutomatorTestRunner.java:160)
+
+	at com.android.uiautomator.testrunner.UiAutomatorTestRunner.run(UiAutomatorTestRunner.java:96)
+
+	at com.android.commands.uiautomator.RunTestCommand.run(RunTestCommand.java:91)
+
+	at com.android.commands.uiautomator.Launcher.main(Launcher.java:83)
+
+	at com.android.internal.os.RuntimeInit.nativeFinishInit(Native Method)
+
+	at com.android.internal.os.RuntimeInit.main(RuntimeInit.java:243)
+
+	at dalvik.system.NativeStart.main(Native Method)
+
+
+
+INSTRUMENTATION_STATUS: current=1
+
+INSTRUMENTATION_STATUS_CODE: -1
+
+INSTRUMENTATION_STATUS: stream=
+
+Test results for WatcherResultPrinter=.E
+
+Time: 17.726
+
+
+
+FAILURES!!!
+
+Tests run: 1,  Failures: 0,  Errors: 1
+
+
+
+
+
+INSTRUMENTATION_STATUS_CODE: -1
+
+$PATH
+Updated file E:\GitHub\appMarket\build.xml
+Buildfile: E:\GitHub\appMarket\build.xml
+
+-check-env:
+ [checkenv] Android SDK Tools Revision 22.2.1
+ [checkenv] Installed at D:\adt-bundle-windows-x86_64-20130917\sdk
+
+-build-setup:
+[getbuildtools] Using latest Build Tools: 18.1.0
+     [echo] Resolving Build Target for Gfan...
+[getuitarget] Project Target:   Android 4.3
+[getuitarget] API level:        18
+     [echo] ----------
+     [echo] Creating output directories if needed...
+
+-pre-compile:
+
+compile:
+    [javac] Compiling 1 source file to E:\GitHub\appMarket\bin\classes
+    [javac] ����: [options] Դֵ1.5�ѹ�ʱ, ����δ�����з��а���ɾ��
+    [javac] ����: [options] Ŀ��ֵ1.5�ѹ�ʱ, ����δ�����з��а���ɾ��
+    [javac] ����: [options] Ҫ�����й��ѹ�ʱѡ��ľ���, ��ʹ�� -Xlint:-options��
+    [javac] 3 ������
+
+-post-compile:
+
+-dex:
+      [dex] input: E:\GitHub\appMarket\bin\classes
+      [dex] Found Deleted Target File
+      [dex] Converting compiled files and external libraries into E:\GitHub\appMarket\bin\classes.dex...
+
+-post-dex:
+
+-jar:
+      [jar] Building jar: E:\GitHub\appMarket\bin\Gfan.jar
+
+-post-jar:
+
+build:
+
+BUILD SUCCESSFUL
+Total time: 9 seconds
+692 KB/s (11096 bytes in 0.015s)
+INSTRUMENTATION_STATUS: numtests=1
+
+INSTRUMENTATION_STATUS: stream=
+
+com.testcases.Gfan:
+
+INSTRUMENTATION_STATUS: id=UiAutomatorTestRunner
+
+INSTRUMENTATION_STATUS: test=testCase
+
+INSTRUMENTATION_STATUS: class=com.testcases.Gfan
+
+INSTRUMENTATION_STATUS: current=1
+
+INSTRUMENTATION_STATUS_CODE: 1
+
+INSTRUMENTATION_STATUS: numtests=1
+
+INSTRUMENTATION_STATUS: stream=.
+
+INSTRUMENTATION_STATUS: id=UiAutomatorTestRunner
+
+INSTRUMENTATION_STATUS: test=testCase
+
+INSTRUMENTATION_STATUS: class=com.testcases.Gfan
+
+INSTRUMENTATION_STATUS: current=1
+
+INSTRUMENTATION_STATUS_CODE: 0
+
+INSTRUMENTATION_STATUS: stream=
+
+Test results for WatcherResultPrinter=.
+
+Time: 11.269
+
+
+
+OK (1 test)
+
+
+
+
+
+INSTRUMENTATION_STATUS_CODE: -1
+
+$PATH
+Updated file E:\GitHub\appMarket\build.xml
+Buildfile: E:\GitHub\appMarket\build.xml
+
+-check-env:
+ [checkenv] Android SDK Tools Revision 22.2.1
+ [checkenv] Installed at D:\adt-bundle-windows-x86_64-20130917\sdk
+
+-build-setup:
+[getbuildtools] Using latest Build Tools: 18.1.0
+     [echo] Resolving Build Target for Gfan...
+[getuitarget] Project Target:   Android 4.3
+[getuitarget] API level:        18
+     [echo] ----------
+     [echo] Creating output directories if needed...
+    [mkdir] Created dir: E:\GitHub\appMarket\bin\classes
+
+-pre-compile:
+
+compile:
+    [javac] Compiling 10 source files to E:\GitHub\appMarket\bin\classes
+    [javac] ����: [options] Դֵ1.5�ѹ�ʱ, ����δ�����з��а���ɾ��
+    [javac] ����: [options] Ŀ��ֵ1.5�ѹ�ʱ, ����δ�����з��а���ɾ��
+    [javac] ����: [options] Ҫ�����й��ѹ�ʱѡ��ľ���, ��ʹ�� -Xlint:-options��
+    [javac] ע: E:\GitHub\appMarket\src\com\inputmethod\CharsetProvider.javaʹ����δ�����򲻰�ȫ�Ĳ�����
+    [javac] ע: �й���ϸ��Ϣ, ��ʹ�� -Xlint:unchecked ���±��롣
+    [javac] 3 ������
+
+-post-compile:
+
+-dex:
+      [dex] input: E:\GitHub\appMarket\bin\classes
+      [dex] Found Deleted Target File
+      [dex] Converting compiled files and external libraries into E:\GitHub\appMarket\bin\classes.dex...
+
+-post-dex:
+
+-jar:
+      [jar] Building jar: E:\GitHub\appMarket\bin\Gfan.jar
+
+-post-jar:
+
+build:
+
+BUILD SUCCESSFUL
+Total time: 3 seconds
+1383 KB/s (11096 bytes in 0.007s)
+INSTRUMENTATION_STATUS: numtests=1
+
+INSTRUMENTATION_STATUS: stream=
+
+com.testcases.Gfan:
+
+INSTRUMENTATION_STATUS: id=UiAutomatorTestRunner
+
+INSTRUMENTATION_STATUS: test=testCase
+
+INSTRUMENTATION_STATUS: class=com.testcases.Gfan
+
+INSTRUMENTATION_STATUS: current=1
+
+INSTRUMENTATION_STATUS_CODE: 1
+
+INSTRUMENTATION_STATUS: numtests=1
+
+INSTRUMENTATION_STATUS: stream=.
+
+INSTRUMENTATION_STATUS: id=UiAutomatorTestRunner
+
+INSTRUMENTATION_STATUS: test=testCase
+
+INSTRUMENTATION_STATUS: class=com.testcases.Gfan
+
+INSTRUMENTATION_STATUS: current=1
+
+INSTRUMENTATION_STATUS_CODE: 0
+
+INSTRUMENTATION_STATUS: stream=
+
+Test results for WatcherResultPrinter=.
+
+Time: 7.955
+
+
+
+OK (1 test)
+
+
+
+
+
+INSTRUMENTATION_STATUS_CODE: -1
+
+$PATH
+Updated file E:\GitHub\appMarket\build.xml
+Buildfile: E:\GitHub\appMarket\build.xml
+
+-check-env:
+ [checkenv] Android SDK Tools Revision 22.2.1
+ [checkenv] Installed at D:\adt-bundle-windows-x86_64-20130917\sdk
+
+-build-setup:
+[getbuildtools] Using latest Build Tools: 18.1.0
+     [echo] Resolving Build Target for Search...
+[getuitarget] Project Target:   Android 4.3
+[getuitarget] API level:        18
+     [echo] ----------
+     [echo] Creating output directories if needed...
+
+-pre-compile:
+
+compile:
+    [javac] Compiling 1 source file to E:\GitHub\appMarket\bin\classes
+    [javac] ����: [options] Դֵ1.5�ѹ�ʱ, ����δ�����з��а���ɾ��
+    [javac] ����: [options] Ŀ��ֵ1.5�ѹ�ʱ, ����δ�����з��а���ɾ��
+    [javac] ����: [options] Ҫ�����й��ѹ�ʱѡ��ľ���, ��ʹ�� -Xlint:-options��
+    [javac] 3 ������
+
+-post-compile:
+
+-dex:
+      [dex] input: E:\GitHub\appMarket\bin\classes
+      [dex] Found Deleted Target File
+      [dex] Converting compiled files and external libraries into E:\GitHub\appMarket\bin\classes.dex...
+
+-post-dex:
+
+-jar:
+      [jar] Building jar: E:\GitHub\appMarket\bin\Search.jar
+
+-post-jar:
+
+build:
+
+BUILD SUCCESSFUL
+Total time: 2 seconds
+1603 KB/s (11235 bytes in 0.006s)
+INSTRUMENTATION_STATUS: numtests=1
+
+INSTRUMENTATION_STATUS: stream=
+
+com.testcases.Search:
+
+INSTRUMENTATION_STATUS: id=UiAutomatorTestRunner
+
+INSTRUMENTATION_STATUS: test=testSearch
+
+INSTRUMENTATION_STATUS: class=com.testcases.Search
+
+INSTRUMENTATION_STATUS: current=1
+
+INSTRUMENTATION_STATUS_CODE: 1
+
+INSTRUMENTATION_STATUS: numtests=1
+
+INSTRUMENTATION_STATUS: stream=.
+
+INSTRUMENTATION_STATUS: id=UiAutomatorTestRunner
+
+INSTRUMENTATION_STATUS: test=testSearch
+
+INSTRUMENTATION_STATUS: class=com.testcases.Search
+
+INSTRUMENTATION_STATUS: current=1
+
+INSTRUMENTATION_STATUS_CODE: 0
+
+INSTRUMENTATION_STATUS: stream=
+
+Test results for WatcherResultPrinter=.
+
+Time: 11.516
+
+
+
+OK (1 test)
+
+
+
+
+
+INSTRUMENTATION_STATUS_CODE: -1
+
+$PATH
+Updated file E:\GitHub\appMarket\build.xml
+Buildfile: E:\GitHub\appMarket\build.xml
+
+-check-env:
+ [checkenv] Android SDK Tools Revision 22.2.1
+ [checkenv] Installed at D:\adt-bundle-windows-x86_64-20130917\sdk
+
+-build-setup:
+[getbuildtools] Using latest Build Tools: 18.1.0
+     [echo] Resolving Build Target for Search...
+[getuitarget] Project Target:   Android 4.3
+[getuitarget] API level:        18
+     [echo] ----------
+     [echo] Creating output directories if needed...
+
+-pre-compile:
+
+compile:
+    [javac] Compiling 1 source file to E:\GitHub\appMarket\bin\classes
+    [javac] ����: [options] Դֵ1.5�ѹ�ʱ, ����δ�����з��а���ɾ��
+    [javac] ����: [options] Ŀ��ֵ1.5�ѹ�ʱ, ����δ�����з��а���ɾ��
+    [javac] ����: [options] Ҫ�����й��ѹ�ʱѡ��ľ���, ��ʹ�� -Xlint:-options��
+    [javac] E:\GitHub\appMarket\src\com\testcases\Search.java:3: ����: �����org.testng.annotations������
+    [javac] import org.testng.annotations.Test;
+    [javac]                              ^
+    [javac] E:\GitHub\appMarket\src\com\testcases\Search.java:13: ����: �Ҳ�������
+    [javac] 	@Test
+    [javac] 	 ^
+    [javac]   ����:   �� Test
+    [javac]   λ��: �� Search
+    [javac] 2 ������
+    [javac] 3 ������
+
+BUILD FAILED
+D:\adt-bundle-windows-x86_64-20130917\sdk\tools\ant\uibuild.xml:183: Compile failed; see the compiler error output for details.
+
+Total time: 0 seconds
+1870 KB/s (11235 bytes in 0.005s)
+INSTRUMENTATION_STATUS: numtests=1
+
+INSTRUMENTATION_STATUS: stream=
+
+com.testcases.Search:
+
+INSTRUMENTATION_STATUS: id=UiAutomatorTestRunner
+
+INSTRUMENTATION_STATUS: test=testSearch
+
+INSTRUMENTATION_STATUS: class=com.testcases.Search
+
+INSTRUMENTATION_STATUS: current=1
+
+INSTRUMENTATION_STATUS_CODE: 1
+
+INSTRUMENTATION_STATUS: numtests=1
+
+INSTRUMENTATION_STATUS: stream=.
+
+INSTRUMENTATION_STATUS: id=UiAutomatorTestRunner
+
+INSTRUMENTATION_STATUS: test=testSearch
+
+INSTRUMENTATION_STATUS: class=com.testcases.Search
+
+INSTRUMENTATION_STATUS: current=1
+
+INSTRUMENTATION_STATUS_CODE: 0
+
+INSTRUMENTATION_STATUS: stream=
+
+Test results for WatcherResultPrinter=.
+
+Time: 11.035
+
+
+
+OK (1 test)
+
+
+
+
+
+INSTRUMENTATION_STATUS_CODE: -1
+
+$PATH
+Updated file E:\GitHub\appMarket\build.xml
+Buildfile: E:\GitHub\appMarket\build.xml
+
+-check-env:
+ [checkenv] Android SDK Tools Revision 22.2.1
+ [checkenv] Installed at D:\adt-bundle-windows-x86_64-20130917\sdk
+
+-build-setup:
+[getbuildtools] Using latest Build Tools: 18.1.0
+     [echo] Resolving Build Target for Search...
+[getuitarget] Project Target:   Android 4.3
+[getuitarget] API level:        18
+     [echo] ----------
+     [echo] Creating output directories if needed...
+
+-pre-compile:
+
+compile:
+    [javac] Compiling 1 source file to E:\GitHub\appMarket\bin\classes
+    [javac] ����: [options] Դֵ1.5�ѹ�ʱ, ����δ�����з��а���ɾ��
+    [javac] ����: [options] Ŀ��ֵ1.5�ѹ�ʱ, ����δ�����з��а���ɾ��
+    [javac] ����: [options] Ҫ�����й��ѹ�ʱѡ��ľ���, ��ʹ�� -Xlint:-options��
+    [javac] E:\GitHub\appMarket\src\com\testcases\Search.java:3: ����: �����org.testng.annotations������
+    [javac] import org.testng.annotations.Test;
+    [javac]                              ^
+    [javac] E:\GitHub\appMarket\src\com\testcases\Search.java:13: ����: �Ҳ�������
+    [javac] 	@Test
+    [javac] 	 ^
+    [javac]   ����:   �� Test
+    [javac]   λ��: �� Search
+    [javac] 2 ������
+    [javac] 3 ������
+
+BUILD FAILED
+D:\adt-bundle-windows-x86_64-20130917\sdk\tools\ant\uibuild.xml:183: Compile failed; see the compiler error output for details.
+
+Total time: 1 second
+1603 KB/s (11235 bytes in 0.006s)
+INSTRUMENTATION_STATUS: numtests=1
+
+INSTRUMENTATION_STATUS: stream=
+
+com.testcases.Search:
+
+INSTRUMENTATION_STATUS: id=UiAutomatorTestRunner
+
+INSTRUMENTATION_STATUS: test=testSearch
+
+INSTRUMENTATION_STATUS: class=com.testcases.Search
+
+INSTRUMENTATION_STATUS: current=1
+
+INSTRUMENTATION_STATUS_CODE: 1
+
+INSTRUMENTATION_STATUS: numtests=1
+
+INSTRUMENTATION_STATUS: stream=
+
+Error in testSearch:
+
+com.android.uiautomator.core.UiObjectNotFoundException: UiSelector[DESCRIPTION=机锋市场]
+
+	at com.android.uiautomator.core.UiObject.click(UiObject.java:392)
+
+	at com.testcases.Search.openGfan(Search.java:27)
+
+	at com.testcases.Search.testSearch(Search.java:21)
+
+	at java.lang.reflect.Method.invokeNative(Native Method)
+
+	at com.android.uiautomator.testrunner.UiAutomatorTestRunner.start(UiAutomatorTestRunner.java:160)
+
+	at com.android.uiautomator.testrunner.UiAutomatorTestRunner.run(UiAutomatorTestRunner.java:96)
+
+	at com.android.commands.uiautomator.RunTestCommand.run(RunTestCommand.java:91)
+
+	at com.android.commands.uiautomator.Launcher.main(Launcher.java:83)
+
+	at com.android.internal.os.RuntimeInit.nativeFinishInit(Native Method)
+
+	at com.android.internal.os.RuntimeInit.main(RuntimeInit.java:243)
+
+	at dalvik.system.NativeStart.main(Native Method)
+
+
+
+INSTRUMENTATION_STATUS: id=UiAutomatorTestRunner
+
+INSTRUMENTATION_STATUS: test=testSearch
+
+INSTRUMENTATION_STATUS: class=com.testcases.Search
+
+INSTRUMENTATION_STATUS: stack=com.android.uiautomator.core.UiObjectNotFoundException: UiSelector[DESCRIPTION=机锋市场]
+
+	at com.android.uiautomator.core.UiObject.click(UiObject.java:392)
+
+	at com.testcases.Search.openGfan(Search.java:27)
+
+	at com.testcases.Search.testSearch(Search.java:21)
+
+	at java.lang.reflect.Method.invokeNative(Native Method)
+
+	at com.android.uiautomator.testrunner.UiAutomatorTestRunner.start(UiAutomatorTestRunner.java:160)
+
+	at com.android.uiautomator.testrunner.UiAutomatorTestRunner.run(UiAutomatorTestRunner.java:96)
+
+	at com.android.commands.uiautomator.RunTestCommand.run(RunTestCommand.java:91)
+
+	at com.android.commands.uiautomator.Launcher.main(Launcher.java:83)
+
+	at com.android.internal.os.RuntimeInit.nativeFinishInit(Native Method)
+
+	at com.android.internal.os.RuntimeInit.main(RuntimeInit.java:243)
+
+	at dalvik.system.NativeStart.main(Native Method)
+
+
+
+INSTRUMENTATION_STATUS: current=1
+
+INSTRUMENTATION_STATUS_CODE: -1
+
+INSTRUMENTATION_STATUS: stream=
+
+Test results for WatcherResultPrinter=.E
+
+Time: 12.068
+
+
+
+FAILURES!!!
+
+Tests run: 1,  Failures: 0,  Errors: 1
+
+
+
+
+
+INSTRUMENTATION_STATUS_CODE: -1
+
+$PATH
+Updated file E:\GitHub\appMarket\build.xml
+Buildfile: E:\GitHub\appMarket\build.xml
+
+-check-env:
+ [checkenv] Android SDK Tools Revision 22.2.1
+ [checkenv] Installed at D:\adt-bundle-windows-x86_64-20130917\sdk
+
+-build-setup:
+[getbuildtools] Using latest Build Tools: 18.1.0
+     [echo] Resolving Build Target for Search...
+[getuitarget] Project Target:   Android 4.3
+[getuitarget] API level:        18
+     [echo] ----------
+     [echo] Creating output directories if needed...
+
+-pre-compile:
+
+compile:
+    [javac] Compiling 1 source file to E:\GitHub\appMarket\bin\classes
+    [javac] ����: [options] Դֵ1.5�ѹ�ʱ, ����δ�����з��а���ɾ��
+    [javac] ����: [options] Ŀ��ֵ1.5�ѹ�ʱ, ����δ�����з��а���ɾ��
+    [javac] ����: [options] Ҫ�����й��ѹ�ʱѡ��ľ���, ��ʹ�� -Xlint:-options��
+    [javac] E:\GitHub\appMarket\src\com\testcases\Search.java:3: ����: �����org.testng.annotations������
+    [javac] import org.testng.annotations.Test;
+    [javac]                              ^
+    [javac] E:\GitHub\appMarket\src\com\testcases\Search.java:13: ����: �Ҳ�������
+    [javac] 	@Test
+    [javac] 	 ^
+    [javac]   ����:   �� Test
+    [javac]   λ��: �� Search
+    [javac] 2 ������
+    [javac] 3 ������
+
+BUILD FAILED
+D:\adt-bundle-windows-x86_64-20130917\sdk\tools\ant\uibuild.xml:183: Compile failed; see the compiler error output for details.
+
+Total time: 0 seconds
+1870 KB/s (11235 bytes in 0.005s)
+INSTRUMENTATION_STATUS: numtests=1
+
+INSTRUMENTATION_STATUS: stream=
+
+com.testcases.Search:
+
+INSTRUMENTATION_STATUS: id=UiAutomatorTestRunner
+
+INSTRUMENTATION_STATUS: test=testSearch
+
+INSTRUMENTATION_STATUS: class=com.testcases.Search
+
+INSTRUMENTATION_STATUS: current=1
+
+INSTRUMENTATION_STATUS_CODE: 1
+
+INSTRUMENTATION_STATUS: numtests=1
+
+INSTRUMENTATION_STATUS: stream=.
+
+INSTRUMENTATION_STATUS: id=UiAutomatorTestRunner
+
+INSTRUMENTATION_STATUS: test=testSearch
+
+INSTRUMENTATION_STATUS: class=com.testcases.Search
+
+INSTRUMENTATION_STATUS: current=1
+
+INSTRUMENTATION_STATUS_CODE: 0
+
+INSTRUMENTATION_STATUS: stream=
+
+Test results for WatcherResultPrinter=.
+
+Time: 7.118
+
+
+
+OK (1 test)
+
+
+
+
+
+INSTRUMENTATION_STATUS_CODE: -1
+
+$PATH
+Updated file E:\GitHub\appMarket\build.xml
+Buildfile: E:\GitHub\appMarket\build.xml
+
+-check-env:
+ [checkenv] Android SDK Tools Revision 22.2.1
+ [checkenv] Installed at D:\adt-bundle-windows-x86_64-20130917\sdk
+
+-build-setup:
+[getbuildtools] Using latest Build Tools: 18.1.0
+     [echo] Resolving Build Target for Search...
+[getuitarget] Project Target:   Android 4.3
+[getuitarget] API level:        18
+     [echo] ----------
+     [echo] Creating output directories if needed...
+
+-pre-compile:
+
+compile:
+    [javac] Compiling 1 source file to E:\GitHub\appMarket\bin\classes
+    [javac] ����: [options] Դֵ1.5�ѹ�ʱ, ����δ�����з��а���ɾ��
+    [javac] ����: [options] Ŀ��ֵ1.5�ѹ�ʱ, ����δ�����з��а���ɾ��
+    [javac] ����: [options] Ҫ�����й��ѹ�ʱѡ��ľ���, ��ʹ�� -Xlint:-options��
+    [javac] E:\GitHub\appMarket\src\com\testcases\Search.java:3: ����: �����org.testng.annotations������
+    [javac] import org.testng.annotations.Test;
+    [javac]                              ^
+    [javac] E:\GitHub\appMarket\src\com\testcases\Search.java:14: ����: �Ҳ�������
+    [javac] 	@Test
+    [javac] 	 ^
+    [javac]   ����:   �� Test
+    [javac]   λ��: �� Search
+    [javac] 2 ������
+    [javac] 3 ������
+
+BUILD FAILED
+D:\adt-bundle-windows-x86_64-20130917\sdk\tools\ant\uibuild.xml:183: Compile failed; see the compiler error output for details.
+
+Total time: 1 second
+1246 KB/s (11235 bytes in 0.008s)
+INSTRUMENTATION_STATUS: numtests=1
+
+INSTRUMENTATION_STATUS: stream=
+
+com.testcases.Search:
+
+INSTRUMENTATION_STATUS: id=UiAutomatorTestRunner
+
+INSTRUMENTATION_STATUS: test=testSearch
+
+INSTRUMENTATION_STATUS: class=com.testcases.Search
+
+INSTRUMENTATION_STATUS: current=1
+
+INSTRUMENTATION_STATUS_CODE: 1
+
+INSTRUMENTATION_STATUS: numtests=1
+
+INSTRUMENTATION_STATUS: stream=.
+
+INSTRUMENTATION_STATUS: id=UiAutomatorTestRunner
+
+INSTRUMENTATION_STATUS: test=testSearch
+
+INSTRUMENTATION_STATUS: class=com.testcases.Search
+
+INSTRUMENTATION_STATUS: current=1
+
+INSTRUMENTATION_STATUS_CODE: 0
+
+INSTRUMENTATION_STATUS: stream=
+
+Test results for WatcherResultPrinter=.
+
+Time: 7.153
+
+
+
+OK (1 test)
+
+
+
+
+
+INSTRUMENTATION_STATUS_CODE: -1
+
+$PATH
+Updated file E:\GitHub\appMarket\build.xml
+Buildfile: E:\GitHub\appMarket\build.xml
+
+-check-env:
+ [checkenv] Android SDK Tools Revision 22.2.1
+ [checkenv] Installed at D:\adt-bundle-windows-x86_64-20130917\sdk
+
+-build-setup:
+[getbuildtools] Using latest Build Tools: 18.1.0
+     [echo] Resolving Build Target for Search...
+[getuitarget] Project Target:   Android 4.3
+[getuitarget] API level:        18
+     [echo] ----------
+     [echo] Creating output directories if needed...
+
+-pre-compile:
+
+compile:
+    [javac] Compiling 1 source file to E:\GitHub\appMarket\bin\classes
+    [javac] ����: [options] Դֵ1.5�ѹ�ʱ, ����δ�����з��а���ɾ��
+    [javac] ����: [options] Ŀ��ֵ1.5�ѹ�ʱ, ����δ�����з��а���ɾ��
+    [javac] ����: [options] Ҫ�����й��ѹ�ʱѡ��ľ���, ��ʹ�� -Xlint:-options��
+    [javac] E:\GitHub\appMarket\src\com\testcases\Search.java:3: ����: �����org.testng.annotations������
+    [javac] import org.testng.annotations.Test;
+    [javac]                              ^
+    [javac] E:\GitHub\appMarket\src\com\testcases\Search.java:14: ����: �Ҳ�������
+    [javac] 	@Test
+    [javac] 	 ^
+    [javac]   ����:   �� Test
+    [javac]   λ��: �� Search
+    [javac] 2 ������
+    [javac] 3 ������
+
+BUILD FAILED
+D:\adt-bundle-windows-x86_64-20130917\sdk\tools\ant\uibuild.xml:183: Compile failed; see the compiler error output for details.
+
+Total time: 1 second
+1402 KB/s (11235 bytes in 0.007s)
+INSTRUMENTATION_STATUS: numtests=1
+
+INSTRUMENTATION_STATUS: stream=
+
+com.testcases.Search:
+
+INSTRUMENTATION_STATUS: id=UiAutomatorTestRunner
+
+INSTRUMENTATION_STATUS: test=testSearch
+
+INSTRUMENTATION_STATUS: class=com.testcases.Search
+
+INSTRUMENTATION_STATUS: current=1
+
+INSTRUMENTATION_STATUS_CODE: 1
+
+INSTRUMENTATION_STATUS: numtests=1
+
+INSTRUMENTATION_STATUS: stream=.
+
+INSTRUMENTATION_STATUS: id=UiAutomatorTestRunner
+
+INSTRUMENTATION_STATUS: test=testSearch
+
+INSTRUMENTATION_STATUS: class=com.testcases.Search
+
+INSTRUMENTATION_STATUS: current=1
+
+INSTRUMENTATION_STATUS_CODE: 0
+
+INSTRUMENTATION_STATUS: stream=
+
+Test results for WatcherResultPrinter=.
+
+Time: 7.16
+
+
+
+OK (1 test)
+
+
+
+
+
+INSTRUMENTATION_STATUS_CODE: -1
+
+$PATH
+Updated file E:\GitHub\appMarket\build.xml
+Buildfile: E:\GitHub\appMarket\build.xml
+
+-check-env:
+ [checkenv] Android SDK Tools Revision 22.2.1
+ [checkenv] Installed at D:\adt-bundle-windows-x86_64-20130917\sdk
+
+-build-setup:
+[getbuildtools] Using latest Build Tools: 18.1.0
+     [echo] Resolving Build Target for Search...
+[getuitarget] Project Target:   Android 4.3
+[getuitarget] API level:        18
+     [echo] ----------
+     [echo] Creating output directories if needed...
+
+-pre-compile:
+
+compile:
+    [javac] Compiling 1 source file to E:\GitHub\appMarket\bin\classes
+    [javac] ����: [options] Դֵ1.5�ѹ�ʱ, ����δ�����з��а���ɾ��
+    [javac] ����: [options] Ŀ��ֵ1.5�ѹ�ʱ, ����δ�����з��а���ɾ��
+    [javac] ����: [options] Ҫ�����й��ѹ�ʱѡ��ľ���, ��ʹ�� -Xlint:-options��
+    [javac] E:\GitHub\appMarket\src\com\testcases\Search.java:3: ����: �����org.testng.annotations������
+    [javac] import org.testng.annotations.Test;
+    [javac]                              ^
+    [javac] E:\GitHub\appMarket\src\com\testcases\Search.java:14: ����: �Ҳ�������
+    [javac] 	@Test
+    [javac] 	 ^
+    [javac]   ����:   �� Test
+    [javac]   λ��: �� Search
+    [javac] 2 ������
+    [javac] 3 ������
+
+BUILD FAILED
+D:\adt-bundle-windows-x86_64-20130917\sdk\tools\ant\uibuild.xml:183: Compile failed; see the compiler error output for details.
+
+Total time: 1 second
+2244 KB/s (11235 bytes in 0.004s)
+INSTRUMENTATION_STATUS: numtests=1
+
+INSTRUMENTATION_STATUS: stream=
+
+com.testcases.Search:
+
+INSTRUMENTATION_STATUS: id=UiAutomatorTestRunner
+
+INSTRUMENTATION_STATUS: test=testSearch
+
+INSTRUMENTATION_STATUS: class=com.testcases.Search
+
+INSTRUMENTATION_STATUS: current=1
+
+INSTRUMENTATION_STATUS_CODE: 1
+
+INSTRUMENTATION_STATUS: numtests=1
+
+INSTRUMENTATION_STATUS: stream=.
+
+INSTRUMENTATION_STATUS: id=UiAutomatorTestRunner
+
+INSTRUMENTATION_STATUS: test=testSearch
+
+INSTRUMENTATION_STATUS: class=com.testcases.Search
+
+INSTRUMENTATION_STATUS: current=1
+
+INSTRUMENTATION_STATUS_CODE: 0
+
+INSTRUMENTATION_STATUS: stream=
+
+Test results for WatcherResultPrinter=.
+
+Time: 7.107
+
+
+
+OK (1 test)
+
+
+
+
+
+INSTRUMENTATION_STATUS_CODE: -1
+
+$PATH
+Updated file E:\GitHub\appMarket\build.xml
+Buildfile: E:\GitHub\appMarket\build.xml
+
+-check-env:
+ [checkenv] Android SDK Tools Revision 22.2.1
+ [checkenv] Installed at D:\adt-bundle-windows-x86_64-20130917\sdk
+
+-build-setup:
+[getbuildtools] Using latest Build Tools: 18.1.0
+     [echo] Resolving Build Target for Search...
+[getuitarget] Project Target:   Android 4.3
+[getuitarget] API level:        18
+     [echo] ----------
+     [echo] Creating output directories if needed...
+
+-pre-compile:
+
+compile:
+    [javac] Compiling 1 source file to E:\GitHub\appMarket\bin\classes
+    [javac] ����: [options] Դֵ1.5�ѹ�ʱ, ����δ�����з��а���ɾ��
+    [javac] ����: [options] Ŀ��ֵ1.5�ѹ�ʱ, ����δ�����з��а���ɾ��
+    [javac] ����: [options] Ҫ�����й��ѹ�ʱѡ��ľ���, ��ʹ�� -Xlint:-options��
+    [javac] E:\GitHub\appMarket\src\com\testcases\Search.java:3: ����: �����org.testng.annotations������
+    [javac] import org.testng.annotations.Test;
+    [javac]                              ^
+    [javac] E:\GitHub\appMarket\src\com\testcases\Search.java:14: ����: �Ҳ�������
+    [javac] 	@Test
+    [javac] 	 ^
+    [javac]   ����:   �� Test
+    [javac]   λ��: �� Search
+    [javac] 2 ������
+    [javac] 3 ������
+
+BUILD FAILED
+D:\adt-bundle-windows-x86_64-20130917\sdk\tools\ant\uibuild.xml:183: Compile failed; see the compiler error output for details.
+
+Total time: 1 second
+1402 KB/s (11235 bytes in 0.007s)
+INSTRUMENTATION_STATUS: numtests=1
+
+INSTRUMENTATION_STATUS: stream=
+
+com.testcases.Search:
+
+INSTRUMENTATION_STATUS: id=UiAutomatorTestRunner
+
+INSTRUMENTATION_STATUS: test=testSearch
+
+INSTRUMENTATION_STATUS: class=com.testcases.Search
+
+INSTRUMENTATION_STATUS: current=1
+
+INSTRUMENTATION_STATUS_CODE: 1
+
+INSTRUMENTATION_STATUS: numtests=1
+
+INSTRUMENTATION_STATUS: stream=.
+
+INSTRUMENTATION_STATUS: id=UiAutomatorTestRunner
+
+INSTRUMENTATION_STATUS: test=testSearch
+
+INSTRUMENTATION_STATUS: class=com.testcases.Search
+
+INSTRUMENTATION_STATUS: current=1
+
+INSTRUMENTATION_STATUS_CODE: 0
+
+INSTRUMENTATION_STATUS: stream=
+
+Test results for WatcherResultPrinter=.
+
+Time: 7.054
+
+
+
+OK (1 test)
+
+
+
+
+
+INSTRUMENTATION_STATUS_CODE: -1
+
+$PATH
+Updated file E:\GitHub\appMarket\build.xml
+Buildfile: E:\GitHub\appMarket\build.xml
+
+-check-env:
+ [checkenv] Android SDK Tools Revision 22.2.1
+ [checkenv] Installed at D:\adt-bundle-windows-x86_64-20130917\sdk
+
+-build-setup:
+[getbuildtools] Using latest Build Tools: 18.1.0
+     [echo] Resolving Build Target for Search...
+[getuitarget] Project Target:   Android 4.3
+[getuitarget] API level:        18
+     [echo] ----------
+     [echo] Creating output directories if needed...
+
+-pre-compile:
+
+compile:
+    [javac] Compiling 1 source file to E:\GitHub\appMarket\bin\classes
+    [javac] ����: [options] Դֵ1.5�ѹ�ʱ, ����δ�����з��а���ɾ��
+    [javac] ����: [options] Ŀ��ֵ1.5�ѹ�ʱ, ����δ�����з��а���ɾ��
+    [javac] ����: [options] Ҫ�����й��ѹ�ʱѡ��ľ���, ��ʹ�� -Xlint:-options��
+    [javac] E:\GitHub\appMarket\src\com\testcases\Search.java:3: ����: �����org.testng������
+    [javac] import org.testng.Assert;
+    [javac]                  ^
+    [javac] E:\GitHub\appMarket\src\com\testcases\Search.java:4: ����: �����org.testng.annotations������
+    [javac] import org.testng.annotations.Test;
+    [javac]                              ^
+    [javac] E:\GitHub\appMarket\src\com\testcases\Search.java:15: ����: �Ҳ�������
+    [javac] 	@Test
+    [javac] 	 ^
+    [javac]   ����:   �� Test
+    [javac]   λ��: �� Search
+    [javac] E:\GitHub\appMarket\src\com\testcases\Search.java:45: ����: �Ҳ�������
+    [javac] 		Assert.assertEquals(true, noResult.exists());
+    [javac] 		^
+    [javac]   ����:   ���� Assert
+    [javac]   λ��: �� Search
+    [javac] E:\GitHub\appMarket\src\com\testcases\Search.java:46: ����: �Ҳ�������
+    [javac] 		Assert.assertEquals(noResult.getText(), "�����ڴ�~");
+    [javac] 		^
+    [javac]   ����:   ���� Assert
+    [javac]   λ��: �� Search
+    [javac] 5 ������
+    [javac] 3 ������
+
+BUILD FAILED
+D:\adt-bundle-windows-x86_64-20130917\sdk\tools\ant\uibuild.xml:183: Compile failed; see the compiler error output for details.
+
+Total time: 1 second
+1122 KB/s (11235 bytes in 0.009s)
+INSTRUMENTATION_STATUS: numtests=1
+
+INSTRUMENTATION_STATUS: stream=
+
+com.testcases.Search:
+
+INSTRUMENTATION_STATUS: id=UiAutomatorTestRunner
+
+INSTRUMENTATION_STATUS: test=testSearch
+
+INSTRUMENTATION_STATUS: class=com.testcases.Search
+
+INSTRUMENTATION_STATUS: current=1
+
+INSTRUMENTATION_STATUS_CODE: 1
+
+INSTRUMENTATION_STATUS: numtests=1
+
+INSTRUMENTATION_STATUS: stream=.
+
+INSTRUMENTATION_STATUS: id=UiAutomatorTestRunner
+
+INSTRUMENTATION_STATUS: test=testSearch
+
+INSTRUMENTATION_STATUS: class=com.testcases.Search
+
+INSTRUMENTATION_STATUS: current=1
+
+INSTRUMENTATION_STATUS_CODE: 0
+
+INSTRUMENTATION_STATUS: stream=
+
+Test results for WatcherResultPrinter=.
+
+Time: 7.354
+
+
+
+OK (1 test)
+
+
+
+
+
+INSTRUMENTATION_STATUS_CODE: -1
+
+$PATH
+Updated file E:\GitHub\appMarket\build.xml
+Buildfile: E:\GitHub\appMarket\build.xml
+
+-check-env:
+ [checkenv] Android SDK Tools Revision 22.2.1
+ [checkenv] Installed at D:\adt-bundle-windows-x86_64-20130917\sdk
+
+-build-setup:
+[getbuildtools] Using latest Build Tools: 18.1.0
+     [echo] Resolving Build Target for Search...
+[getuitarget] Project Target:   Android 4.3
+[getuitarget] API level:        18
+     [echo] ----------
+     [echo] Creating output directories if needed...
+
+-pre-compile:
+
+compile:
+    [javac] Compiling 1 source file to E:\GitHub\appMarket\bin\classes
+    [javac] ����: [options] Դֵ1.5�ѹ�ʱ, ����δ�����з��а���ɾ��
+    [javac] ����: [options] Ŀ��ֵ1.5�ѹ�ʱ, ����δ�����з��а���ɾ��
+    [javac] ����: [options] Ҫ�����й��ѹ�ʱѡ��ľ���, ��ʹ�� -Xlint:-options��
+    [javac] E:\GitHub\appMarket\src\com\testcases\Search.java:3: ����: �����org.testng������
+    [javac] import org.testng.Assert;
+    [javac]                  ^
+    [javac] E:\GitHub\appMarket\src\com\testcases\Search.java:4: ����: �����org.testng.annotations������
+    [javac] import org.testng.annotations.Test;
+    [javac]                              ^
+    [javac] E:\GitHub\appMarket\src\com\testcases\Search.java:15: ����: �Ҳ�������
+    [javac] 	@Test
+    [javac] 	 ^
+    [javac]   ����:   �� Test
+    [javac]   λ��: �� Search
+    [javac] E:\GitHub\appMarket\src\com\testcases\Search.java:45: ����: �Ҳ�������
+    [javac] 		Assert.assertEquals(true, noResult.exists());
+    [javac] 		^
+    [javac]   ����:   ���� Assert
+    [javac]   λ��: �� Search
+    [javac] E:\GitHub\appMarket\src\com\testcases\Search.java:46: ����: �Ҳ�������
+    [javac] 		Assert.assertEquals(noResult.getText(), "�����ڴ�~");
+    [javac] 		^
+    [javac]   ����:   ���� Assert
+    [javac]   λ��: �� Search
+    [javac] 5 ������
+    [javac] 3 ������
+
+BUILD FAILED
+D:\adt-bundle-windows-x86_64-20130917\sdk\tools\ant\uibuild.xml:183: Compile failed; see the compiler error output for details.
+
+Total time: 1 second
+1402 KB/s (11235 bytes in 0.007s)
+INSTRUMENTATION_STATUS: numtests=1
+
+INSTRUMENTATION_STATUS: stream=
+
+com.testcases.Search:
+
+INSTRUMENTATION_STATUS: id=UiAutomatorTestRunner
+
+INSTRUMENTATION_STATUS: test=testSearch
+
+INSTRUMENTATION_STATUS: class=com.testcases.Search
+
+INSTRUMENTATION_STATUS: current=1
+
+INSTRUMENTATION_STATUS_CODE: 1
+
+INSTRUMENTATION_STATUS: numtests=1
+
+INSTRUMENTATION_STATUS: stream=.
+
+INSTRUMENTATION_STATUS: id=UiAutomatorTestRunner
+
+INSTRUMENTATION_STATUS: test=testSearch
+
+INSTRUMENTATION_STATUS: class=com.testcases.Search
+
+INSTRUMENTATION_STATUS: current=1
+
+INSTRUMENTATION_STATUS_CODE: 0
+
+INSTRUMENTATION_STATUS: stream=
+
+Test results for WatcherResultPrinter=.
+
+Time: 7.484
+
+
+
+OK (1 test)
+
+
+
+
+
+INSTRUMENTATION_STATUS_CODE: -1
+
+$PATH
+Updated file E:\GitHub\appMarket\build.xml
+Buildfile: E:\GitHub\appMarket\build.xml
+
+-check-env:
+ [checkenv] Android SDK Tools Revision 22.2.1
+ [checkenv] Installed at D:\adt-bundle-windows-x86_64-20130917\sdk
+
+-build-setup:
+[getbuildtools] Using latest Build Tools: 18.1.0
+     [echo] Resolving Build Target for Search...
+[getuitarget] Project Target:   Android 4.3
+[getuitarget] API level:        18
+     [echo] ----------
+     [echo] Creating output directories if needed...
+
+-pre-compile:
+
+compile:
+    [javac] Compiling 1 source file to E:\GitHub\appMarket\bin\classes
+    [javac] ����: [options] Դֵ1.5�ѹ�ʱ, ����δ�����з��а���ɾ��
+    [javac] ����: [options] Ŀ��ֵ1.5�ѹ�ʱ, ����δ�����з��а���ɾ��
+    [javac] ����: [options] Ҫ�����й��ѹ�ʱѡ��ľ���, ��ʹ�� -Xlint:-options��
+    [javac] E:\GitHub\appMarket\src\com\testcases\Search.java:3: ����: �����org.testng������
+    [javac] import org.testng.Assert;
+    [javac]                  ^
+    [javac] E:\GitHub\appMarket\src\com\testcases\Search.java:4: ����: �����org.testng.annotations������
+    [javac] import org.testng.annotations.Test;
+    [javac]                              ^
+    [javac] E:\GitHub\appMarket\src\com\testcases\Search.java:15: ����: �Ҳ�������
+    [javac] 	@Test
+    [javac] 	 ^
+    [javac]   ����:   �� Test
+    [javac]   λ��: �� Search
+    [javac] E:\GitHub\appMarket\src\com\testcases\Search.java:45: ����: �Ҳ�������
+    [javac] 		Assert.assertEquals(true, noResult.exists());
+    [javac] 		^
+    [javac]   ����:   ���� Assert
+    [javac]   λ��: �� Search
+    [javac] E:\GitHub\appMarket\src\com\testcases\Search.java:46: ����: �Ҳ�������
+    [javac] 		Assert.assertEquals(noResult.getText(), "�����ڴ�~");
+    [javac] 		^
+    [javac]   ����:   ���� Assert
+    [javac]   λ��: �� Search
+    [javac] 5 ������
+    [javac] 3 ������
+
+BUILD FAILED
+D:\adt-bundle-windows-x86_64-20130917\sdk\tools\ant\uibuild.xml:183: Compile failed; see the compiler error output for details.
+
+Total time: 1 second
+1018 KB/s (11235 bytes in 0.010s)
+INSTRUMENTATION_STATUS: numtests=1
+
+INSTRUMENTATION_STATUS: stream=
+
+com.testcases.Search:
+
+INSTRUMENTATION_STATUS: id=UiAutomatorTestRunner
+
+INSTRUMENTATION_STATUS: test=testSearch
+
+INSTRUMENTATION_STATUS: class=com.testcases.Search
+
+INSTRUMENTATION_STATUS: current=1
+
+INSTRUMENTATION_STATUS_CODE: 1
+
+INSTRUMENTATION_STATUS: numtests=1
+
+INSTRUMENTATION_STATUS: stream=.
+
+INSTRUMENTATION_STATUS: id=UiAutomatorTestRunner
+
+INSTRUMENTATION_STATUS: test=testSearch
+
+INSTRUMENTATION_STATUS: class=com.testcases.Search
+
+INSTRUMENTATION_STATUS: current=1
+
+INSTRUMENTATION_STATUS_CODE: 0
+
+INSTRUMENTATION_STATUS: stream=
+
+Test results for WatcherResultPrinter=.
+
+Time: 7.334
+
+
+
+OK (1 test)
+
+
+
+
+
+INSTRUMENTATION_STATUS_CODE: -1
+
+$PATH
+Updated file E:\GitHub\appMarket\build.xml
+Buildfile: E:\GitHub\appMarket\build.xml
+
+-check-env:
+ [checkenv] Android SDK Tools Revision 22.2.1
+ [checkenv] Installed at D:\adt-bundle-windows-x86_64-20130917\sdk
+
+-build-setup:
+[getbuildtools] Using latest Build Tools: 18.1.0
+     [echo] Resolving Build Target for Search...
+[getuitarget] Project Target:   Android 4.3
+[getuitarget] API level:        18
+     [echo] ----------
+     [echo] Creating output directories if needed...
+
+-pre-compile:
+
+compile:
+    [javac] Compiling 1 source file to E:\GitHub\appMarket\bin\classes
+    [javac] ����: [options] Դֵ1.5�ѹ�ʱ, ����δ�����з��а���ɾ��
+    [javac] ����: [options] Ŀ��ֵ1.5�ѹ�ʱ, ����δ�����з��а���ɾ��
+    [javac] ����: [options] Ҫ�����й��ѹ�ʱѡ��ľ���, ��ʹ�� -Xlint:-options��
+    [javac] E:\GitHub\appMarket\src\com\testcases\Search.java:3: ����: �����org.testng������
+    [javac] import org.testng.Assert;
+    [javac]                  ^
+    [javac] E:\GitHub\appMarket\src\com\testcases\Search.java:4: ����: �����org.testng.annotations������
+    [javac] import org.testng.annotations.Test;
+    [javac]                              ^
+    [javac] E:\GitHub\appMarket\src\com\testcases\Search.java:15: ����: �Ҳ�������
+    [javac] 	@Test
+    [javac] 	 ^
+    [javac]   ����:   �� Test
+    [javac]   λ��: �� Search
+    [javac] E:\GitHub\appMarket\src\com\testcases\Search.java:45: ����: �Ҳ�������
+    [javac] 		Assert.assertEquals(true, noResult.exists());
+    [javac] 		^
+    [javac]   ����:   ���� Assert
+    [javac]   λ��: �� Search
+    [javac] E:\GitHub\appMarket\src\com\testcases\Search.java:46: ����: �Ҳ�������
+    [javac] 		Assert.assertEquals(noResult.getText(), "�����ڴ�~");
+    [javac] 		^
+    [javac]   ����:   ���� Assert
+    [javac]   λ��: �� Search
+    [javac] 5 ������
+    [javac] 3 ������
+
+BUILD FAILED
+D:\adt-bundle-windows-x86_64-20130917\sdk\tools\ant\uibuild.xml:183: Compile failed; see the compiler error output for details.
+
+Total time: 1 second
+1247 KB/s (11235 bytes in 0.008s)
+INSTRUMENTATION_STATUS: numtests=1
+
+INSTRUMENTATION_STATUS: stream=
+
+com.testcases.Search:
+
+INSTRUMENTATION_STATUS: id=UiAutomatorTestRunner
+
+INSTRUMENTATION_STATUS: test=testSearch
+
+INSTRUMENTATION_STATUS: class=com.testcases.Search
+
+INSTRUMENTATION_STATUS: current=1
+
+INSTRUMENTATION_STATUS_CODE: 1
+
+INSTRUMENTATION_STATUS: numtests=1
+
+INSTRUMENTATION_STATUS: stream=.
+
+INSTRUMENTATION_STATUS: id=UiAutomatorTestRunner
+
+INSTRUMENTATION_STATUS: test=testSearch
+
+INSTRUMENTATION_STATUS: class=com.testcases.Search
+
+INSTRUMENTATION_STATUS: current=1
+
+INSTRUMENTATION_STATUS_CODE: 0
+
+INSTRUMENTATION_STATUS: stream=
+
+Test results for WatcherResultPrinter=.
+
+Time: 10.397
+
+
+
+OK (1 test)
+
+
+
+
+
+INSTRUMENTATION_STATUS_CODE: -1
+
+$PATH
+Updated file E:\GitHub\appMarket\build.xml
+Buildfile: E:\GitHub\appMarket\build.xml
+
+-check-env:
+ [checkenv] Android SDK Tools Revision 22.2.1
+ [checkenv] Installed at D:\adt-bundle-windows-x86_64-20130917\sdk
+
+-build-setup:
+[getbuildtools] Using latest Build Tools: 18.1.0
+     [echo] Resolving Build Target for Search...
+[getuitarget] Project Target:   Android 4.3
+[getuitarget] API level:        18
+     [echo] ----------
+     [echo] Creating output directories if needed...
+
+-pre-compile:
+
+compile:
+    [javac] Compiling 1 source file to E:\GitHub\appMarket\bin\classes
+    [javac] ����: [options] Դֵ1.5�ѹ�ʱ, ����δ�����з��а���ɾ��
+    [javac] ����: [options] Ŀ��ֵ1.5�ѹ�ʱ, ����δ�����з��а���ɾ��
+    [javac] ����: [options] Ҫ�����й��ѹ�ʱѡ��ľ���, ��ʹ�� -Xlint:-options��
+    [javac] E:\GitHub\appMarket\src\com\testcases\Search.java:3: ����: �����org.testng������
+    [javac] import org.testng.Assert;
+    [javac]                  ^
+    [javac] E:\GitHub\appMarket\src\com\testcases\Search.java:4: ����: �����org.testng.annotations������
+    [javac] import org.testng.annotations.Test;
+    [javac]                              ^
+    [javac] E:\GitHub\appMarket\src\com\testcases\Search.java:15: ����: �Ҳ�������
+    [javac] 	@Test
+    [javac] 	 ^
+    [javac]   ����:   �� Test
+    [javac]   λ��: �� Search
+    [javac] E:\GitHub\appMarket\src\com\testcases\Search.java:45: ����: �Ҳ�������
+    [javac] 		Assert.assertEquals(true, noResult.exists());
+    [javac] 		^
+    [javac]   ����:   ���� Assert
+    [javac]   λ��: �� Search
+    [javac] E:\GitHub\appMarket\src\com\testcases\Search.java:46: ����: �Ҳ�������
+    [javac] 		Assert.assertEquals(noResult.getText(), "�����ڴ�~");
+    [javac] 		^
+    [javac]   ����:   ���� Assert
+    [javac]   λ��: �� Search
+    [javac] 5 ������
+    [javac] 3 ������
+
+BUILD FAILED
+D:\adt-bundle-windows-x86_64-20130917\sdk\tools\ant\uibuild.xml:183: Compile failed; see the compiler error output for details.
+
+Total time: 1 second
+701 KB/s (11235 bytes in 0.015s)
+INSTRUMENTATION_STATUS: numtests=1
+
+INSTRUMENTATION_STATUS: stream=
+
+com.testcases.Search:
+
+INSTRUMENTATION_STATUS: id=UiAutomatorTestRunner
+
+INSTRUMENTATION_STATUS: test=testSearch
+
+INSTRUMENTATION_STATUS: class=com.testcases.Search
+
+INSTRUMENTATION_STATUS: current=1
+
+INSTRUMENTATION_STATUS_CODE: 1
+
+INSTRUMENTATION_STATUS: numtests=1
+
+INSTRUMENTATION_STATUS: stream=.
+
+INSTRUMENTATION_STATUS: id=UiAutomatorTestRunner
+
+INSTRUMENTATION_STATUS: test=testSearch
+
+INSTRUMENTATION_STATUS: class=com.testcases.Search
+
+INSTRUMENTATION_STATUS: current=1
+
+INSTRUMENTATION_STATUS_CODE: 0
+
+INSTRUMENTATION_STATUS: stream=
+
+Test results for WatcherResultPrinter=.
+
+Time: 7.784
+
+
+
+OK (1 test)
+
+
+
+
+
+INSTRUMENTATION_STATUS_CODE: -1
+
+$PATH
+Updated file E:\GitHub\appMarket\build.xml
+Buildfile: E:\GitHub\appMarket\build.xml
+
+-check-env:
+ [checkenv] Android SDK Tools Revision 22.2.1
+ [checkenv] Installed at D:\adt-bundle-windows-x86_64-20130917\sdk
+
+-build-setup:
+[getbuildtools] Using latest Build Tools: 18.1.0
+     [echo] Resolving Build Target for Search...
+[getuitarget] Project Target:   Android 4.3
+[getuitarget] API level:        18
+     [echo] ----------
+     [echo] Creating output directories if needed...
+
+-pre-compile:
+
+compile:
+    [javac] Compiling 1 source file to E:\GitHub\appMarket\bin\classes
+    [javac] ����: [options] Դֵ1.5�ѹ�ʱ, ����δ�����з��а���ɾ��
+    [javac] ����: [options] Ŀ��ֵ1.5�ѹ�ʱ, ����δ�����з��а���ɾ��
+    [javac] ����: [options] Ҫ�����й��ѹ�ʱѡ��ľ���, ��ʹ�� -Xlint:-options��
+    [javac] E:\GitHub\appMarket\src\com\testcases\Search.java:3: ����: �����org.testng������
+    [javac] import org.testng.Assert;
+    [javac]                  ^
+    [javac] E:\GitHub\appMarket\src\com\testcases\Search.java:4: ����: �����org.testng.annotations������
+    [javac] import org.testng.annotations.Test;
+    [javac]                              ^
+    [javac] E:\GitHub\appMarket\src\com\testcases\Search.java:15: ����: �Ҳ�������
+    [javac] 	@Test
+    [javac] 	 ^
+    [javac]   ����:   �� Test
+    [javac]   λ��: �� Search
+    [javac] E:\GitHub\appMarket\src\com\testcases\Search.java:45: ����: �Ҳ�������
+    [javac] 		Assert.assertEquals(true, noResult.exists());
+    [javac] 		^
+    [javac]   ����:   ���� Assert
+    [javac]   λ��: �� Search
+    [javac] E:\GitHub\appMarket\src\com\testcases\Search.java:46: ����: �Ҳ�������
+    [javac] 		Assert.assertEquals(noResult.getText(), "�����ڴ�~");
+    [javac] 		^
+    [javac]   ����:   ���� Assert
+    [javac]   λ��: �� Search
+    [javac] 5 ������
+    [javac] 3 ������
+
+BUILD FAILED
+D:\adt-bundle-windows-x86_64-20130917\sdk\tools\ant\uibuild.xml:183: Compile failed; see the compiler error output for details.
+
+Total time: 1 second
+1247 KB/s (11235 bytes in 0.008s)
+INSTRUMENTATION_STATUS: numtests=1
+
+INSTRUMENTATION_STATUS: stream=
+
+com.testcases.Search:
+
+INSTRUMENTATION_STATUS: id=UiAutomatorTestRunner
+
+INSTRUMENTATION_STATUS: test=testSearch
+
+INSTRUMENTATION_STATUS: class=com.testcases.Search
+
+INSTRUMENTATION_STATUS: current=1
+
+INSTRUMENTATION_STATUS_CODE: 1
+
+INSTRUMENTATION_STATUS: numtests=1
+
+INSTRUMENTATION_STATUS: stream=.
+
+INSTRUMENTATION_STATUS: id=UiAutomatorTestRunner
+
+INSTRUMENTATION_STATUS: test=testSearch
+
+INSTRUMENTATION_STATUS: class=com.testcases.Search
+
+INSTRUMENTATION_STATUS: current=1
+
+INSTRUMENTATION_STATUS_CODE: 0
+
+INSTRUMENTATION_STATUS: stream=
+
+Test results for WatcherResultPrinter=.
+
+Time: 7.168
+
+
+
+OK (1 test)
+
+
+
+
+
+INSTRUMENTATION_STATUS_CODE: -1
+
+$PATH
+Updated file E:\GitHub\appMarket\build.xml
+Buildfile: E:\GitHub\appMarket\build.xml
+
+-check-env:
+ [checkenv] Android SDK Tools Revision 22.2.1
+ [checkenv] Installed at D:\adt-bundle-windows-x86_64-20130917\sdk
+
+-build-setup:
+[getbuildtools] Using latest Build Tools: 18.1.0
+     [echo] Resolving Build Target for Search...
+[getuitarget] Project Target:   Android 4.3
+[getuitarget] API level:        18
+     [echo] ----------
+     [echo] Creating output directories if needed...
+
+-pre-compile:
+
+compile:
+    [javac] Compiling 1 source file to E:\GitHub\appMarket\bin\classes
+    [javac] ����: [options] Դֵ1.5�ѹ�ʱ, ����δ�����з��а���ɾ��
+    [javac] ����: [options] Ŀ��ֵ1.5�ѹ�ʱ, ����δ�����з��а���ɾ��
+    [javac] ����: [options] Ҫ�����й��ѹ�ʱѡ��ľ���, ��ʹ�� -Xlint:-options��
+    [javac] E:\GitHub\appMarket\src\com\testcases\Search.java:3: ����: �����org.testng������
+    [javac] import org.testng.Assert;
+    [javac]                  ^
+    [javac] E:\GitHub\appMarket\src\com\testcases\Search.java:4: ����: �����org.testng.annotations������
+    [javac] import org.testng.annotations.Test;
+    [javac]                              ^
+    [javac] E:\GitHub\appMarket\src\com\testcases\Search.java:15: ����: �Ҳ�������
+    [javac] 	@Test
+    [javac] 	 ^
+    [javac]   ����:   �� Test
+    [javac]   λ��: �� Search
+    [javac] E:\GitHub\appMarket\src\com\testcases\Search.java:49: ����: �Ҳ�������
+    [javac] 		Assert.assertEquals(true, noResult.exists());
+    [javac] 		^
+    [javac]   ����:   ���� Assert
+    [javac]   λ��: �� Search
+    [javac] E:\GitHub\appMarket\src\com\testcases\Search.java:50: ����: �Ҳ�������
+    [javac] 		Assert.assertEquals(noResult.getText(), "�����ڴ�~");
+    [javac] 		^
+    [javac]   ����:   ���� Assert
+    [javac]   λ��: �� Search
+    [javac] 5 ������
+    [javac] 3 ������
+
+BUILD FAILED
+D:\adt-bundle-windows-x86_64-20130917\sdk\tools\ant\uibuild.xml:183: Compile failed; see the compiler error output for details.
+
+Total time: 1 second
+1603 KB/s (11235 bytes in 0.006s)
+INSTRUMENTATION_STATUS: numtests=1
+
+INSTRUMENTATION_STATUS: stream=
+
+com.testcases.Search:
+
+INSTRUMENTATION_STATUS: id=UiAutomatorTestRunner
+
+INSTRUMENTATION_STATUS: test=testSearch
+
+INSTRUMENTATION_STATUS: class=com.testcases.Search
+
+INSTRUMENTATION_STATUS: current=1
+
+INSTRUMENTATION_STATUS_CODE: 1
+
+INSTRUMENTATION_STATUS: numtests=1
+
+INSTRUMENTATION_STATUS: stream=.
+
+INSTRUMENTATION_STATUS: id=UiAutomatorTestRunner
+
+INSTRUMENTATION_STATUS: test=testSearch
+
+INSTRUMENTATION_STATUS: class=com.testcases.Search
+
+INSTRUMENTATION_STATUS: current=1
+
+INSTRUMENTATION_STATUS_CODE: 0
+
+INSTRUMENTATION_STATUS: stream=
+
+Test results for WatcherResultPrinter=.
+
+Time: 11.567
+
+
+
+OK (1 test)
+
+
+
+
+
+INSTRUMENTATION_STATUS_CODE: -1
+
