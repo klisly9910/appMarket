@@ -47,13 +47,21 @@ public class IfErrorMessageExist extends UiAutomatorTestCase {
 								.instance(j));
 						secondText.click();
 						assertFalse(netError.exists());
+						AppName appName = new AppName();
+						appName.clickApp();
 					}
-				}
-				if (backImage.exists()) {
 					backImage.click();
-				} else if(!backImage.exists()){
+				} else if (!fenleiSecondList.exists()) {
+					assertFalse(netError.exists());
 					UiDevice.getInstance().pressBack();
+
 				}
+
+				// if (backImage.exists()) {
+				// backImage.click();
+				// } else if(!backImage.exists()){
+				// UiDevice.getInstance().pressBack();
+				// }
 
 			}
 			System.out.println("分类 列表：" + fenleiList);
