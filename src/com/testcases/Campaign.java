@@ -47,4 +47,5 @@ public class Campaign extends UiAutomatorTestCase {
 		}
 	}
 
+
 }
