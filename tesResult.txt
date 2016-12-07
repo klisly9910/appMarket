@@ -1,69 +1,143 @@
-INSTRUMENTATION_STATUS: numtests=10
+INSTRUMENTATION_STATUS: numtests=6
+INSTRUMENTATION_STATUS: stream=
+com.testcases.Game:
+INSTRUMENTATION_STATUS: id=UiAutomatorTestRunner
+INSTRUMENTATION_STATUS: test=testGameFenLei
+INSTRUMENTATION_STATUS: class=com.testcases.Game
+INSTRUMENTATION_STATUS: current=1
+INSTRUMENTATION_STATUS_CODE: 1
+appName is :[]
+appName is :[]
+appName is :[]
+appName is :[]
+appName is :[射雕英雄传3D]
+appName is :[射雕英雄传3D]
+appName is :[]
+appName is :[射雕英雄传3D]
+appName is :[]
+appName is :[]
+appName is :[]
+appName is :[]
+appName is :[]
+appName is :[]
+appName is :[]
+appName is :[]
+appName is :[坦克指挥官]
+appName is :[坦克指挥官]
+appName is :[]
+appName is :[坦克指挥官]
+appName is :[保卫萝卜2, 巴啦啦小魔仙冰凉冰淇淋, 巴啦啦魔法变身2, 迷你世界, 巴啦啦魔法美甲2, 巴啦啦魔法水晶鞋, 巴啦啦魔法变身3]
+appName is :[保卫萝卜2, 巴啦啦小魔仙冰凉冰淇淋, 巴啦啦魔法变身2, 迷你世界, 巴啦啦魔法美甲2, 巴啦啦魔法水晶鞋, 巴啦啦魔法变身3]
+appName is :[巴啦啦魔法水晶鞋]
+appName is :[巴啦啦魔法水晶鞋, 巴啦啦魔法变身3, 迷你世界, 巴啦啦魔法变身2, 巴啦啦魔法美甲2, 巴啦啦小魔仙冰凉冰淇淋, 保卫萝卜2]
+appName is :[]
+appName is :[]
+appName is :[]
+appName is :[]
+appName is :[]
+appName is :[]
+appName is :[]
+appName is :[]
+appName is :[特技飞车]
+appName is :[特技飞车]
+appName is :[]
+appName is :[特技飞车]
+appName is :[]
+appName is :[]
+appName is :[]
+appName is :[]
+分类 列表：[动作游戏, 冒险游戏, 策略游戏, 街机游戏, RPG游戏, 休闲游戏, 棋牌游戏, 模拟游戏, 竞速体育, 小游戏, 免下载游戏, 对战平台]
+com.android.uiautomator.core.UiObjectNotFoundException: UiSelector[CLASS=android.widget.ImageButton]
+	at com.android.uiautomator.core.UiObject.click(UiObject.java:392)
+	at com.testcases.Game.testGameFenLei(Game.java:47)
+	at java.lang.reflect.Method.invokeNative(Native Method)
+	at java.lang.reflect.Method.invoke(Method.java:515)
+	at junit.framework.TestCase.runTest(TestCase.java:168)
+	at junit.framework.TestCase.runBare(TestCase.java:134)
+	at junit.framework.TestResult$1.protect(TestResult.java:115)
+	at junit.framework.TestResult.runProtected(TestResult.java:133)
+	at junit.framework.TestResult.run(TestResult.java:118)
+	at junit.framework.TestCase.run(TestCase.java:124)
+	at com.android.uiautomator.testrunner.UiAutomatorTestRunner.start(UiAutomatorTestRunner.java:160)
+	at com.android.uiautomator.testrunner.UiAutomatorTestRunner.run(UiAutomatorTestRunner.java:96)
+	at com.android.commands.uiautomator.RunTestCommand.run(RunTestCommand.java:91)
+	at com.android.commands.uiautomator.Launcher.main(Launcher.java:83)
+	at com.android.internal.os.RuntimeInit.nativeFinishInit(Native Method)
+	at com.android.internal.os.RuntimeInit.main(RuntimeInit.java:243)
+	at dalvik.system.NativeStart.main(Native Method)
+INSTRUMENTATION_STATUS: numtests=6
+INSTRUMENTATION_STATUS: stream=.
+INSTRUMENTATION_STATUS: id=UiAutomatorTestRunner
+INSTRUMENTATION_STATUS: test=testGameFenLei
+INSTRUMENTATION_STATUS: class=com.testcases.Game
+INSTRUMENTATION_STATUS: current=1
+INSTRUMENTATION_STATUS_CODE: 0
+INSTRUMENTATION_STATUS: numtests=6
 INSTRUMENTATION_STATUS: stream=
 com.testcases.YingYong:
 INSTRUMENTATION_STATUS: id=UiAutomatorTestRunner
 INSTRUMENTATION_STATUS: test=testFengShenBang
 INSTRUMENTATION_STATUS: class=com.testcases.YingYong
-INSTRUMENTATION_STATUS: current=1
+INSTRUMENTATION_STATUS: current=2
 INSTRUMENTATION_STATUS_CODE: 1
-INSTRUMENTATION_STATUS: numtests=10
+INSTRUMENTATION_STATUS: numtests=6
 INSTRUMENTATION_STATUS: stream=.
 INSTRUMENTATION_STATUS: id=UiAutomatorTestRunner
 INSTRUMENTATION_STATUS: test=testFengShenBang
 INSTRUMENTATION_STATUS: class=com.testcases.YingYong
-INSTRUMENTATION_STATUS: current=1
+INSTRUMENTATION_STATUS: current=2
 INSTRUMENTATION_STATUS_CODE: 0
-INSTRUMENTATION_STATUS: numtests=10
+INSTRUMENTATION_STATUS: numtests=6
 INSTRUMENTATION_STATUS: stream=
 INSTRUMENTATION_STATUS: id=UiAutomatorTestRunner
 INSTRUMENTATION_STATUS: test=testPaiHang
 INSTRUMENTATION_STATUS: class=com.testcases.YingYong
-INSTRUMENTATION_STATUS: current=2
+INSTRUMENTATION_STATUS: current=3
 INSTRUMENTATION_STATUS_CODE: 1
 appName is :[同程旅游, 途牛旅游, 九牛网, 闪购真品, 携程旅行, 驴妈妈旅游, QQ]
-INSTRUMENTATION_STATUS: numtests=10
+INSTRUMENTATION_STATUS: numtests=6
 INSTRUMENTATION_STATUS: stream=.
 INSTRUMENTATION_STATUS: id=UiAutomatorTestRunner
 INSTRUMENTATION_STATUS: test=testPaiHang
 INSTRUMENTATION_STATUS: class=com.testcases.YingYong
-INSTRUMENTATION_STATUS: current=2
+INSTRUMENTATION_STATUS: current=3
 INSTRUMENTATION_STATUS_CODE: 0
-INSTRUMENTATION_STATUS: numtests=10
+INSTRUMENTATION_STATUS: numtests=6
 INSTRUMENTATION_STATUS: stream=
 INSTRUMENTATION_STATUS: id=UiAutomatorTestRunner
 INSTRUMENTATION_STATUS: test=testTuiJian
 INSTRUMENTATION_STATUS: class=com.testcases.YingYong
-INSTRUMENTATION_STATUS: current=3
+INSTRUMENTATION_STATUS: current=4
 INSTRUMENTATION_STATUS_CODE: 1
 appName is :[WiFi万能钥匙, 聪明投, 秒钱, 达令全球好货, 立马理财, 空空狐, 探探]
-INSTRUMENTATION_STATUS: numtests=10
+INSTRUMENTATION_STATUS: numtests=6
 INSTRUMENTATION_STATUS: stream=.
 INSTRUMENTATION_STATUS: id=UiAutomatorTestRunner
 INSTRUMENTATION_STATUS: test=testTuiJian
 INSTRUMENTATION_STATUS: class=com.testcases.YingYong
-INSTRUMENTATION_STATUS: current=3
+INSTRUMENTATION_STATUS: current=4
 INSTRUMENTATION_STATUS_CODE: 0
-INSTRUMENTATION_STATUS: numtests=10
+INSTRUMENTATION_STATUS: numtests=6
 INSTRUMENTATION_STATUS: stream=
 INSTRUMENTATION_STATUS: id=UiAutomatorTestRunner
 INSTRUMENTATION_STATUS: test=testXinPing
 INSTRUMENTATION_STATUS: class=com.testcases.YingYong
-INSTRUMENTATION_STATUS: current=4
+INSTRUMENTATION_STATUS: current=5
 INSTRUMENTATION_STATUS_CODE: 1
-appName is :[Pinkoi, 查令日记, Everfilter, 玩一票, 梨视频, 一招, 小猪理财]
-INSTRUMENTATION_STATUS: numtests=10
+appName is :[招商银行, 今日头条, iOffice M2, Pinkoi, 查令日记, Everfilter, 玩一票]
+INSTRUMENTATION_STATUS: numtests=6
 INSTRUMENTATION_STATUS: stream=.
 INSTRUMENTATION_STATUS: id=UiAutomatorTestRunner
 INSTRUMENTATION_STATUS: test=testXinPing
 INSTRUMENTATION_STATUS: class=com.testcases.YingYong
-INSTRUMENTATION_STATUS: current=4
+INSTRUMENTATION_STATUS: current=5
 INSTRUMENTATION_STATUS_CODE: 0
-INSTRUMENTATION_STATUS: numtests=10
+INSTRUMENTATION_STATUS: numtests=6
 INSTRUMENTATION_STATUS: stream=
 INSTRUMENTATION_STATUS: id=UiAutomatorTestRunner
 INSTRUMENTATION_STATUS: test=testYingYongFenLei
 INSTRUMENTATION_STATUS: class=com.testcases.YingYong
-INSTRUMENTATION_STATUS: current=5
+INSTRUMENTATION_STATUS: current=6
 INSTRUMENTATION_STATUS_CODE: 1
 appName is :[墨迹天气, Nokia X计算器, ES 文件浏览器, 我查查, 星座天气, 葫芦侠, 最美装修]
 appName is :[4399我的世界助手, Google搜索, WiFi万能钥匙, 墨迹天气, 快抢红包, Google 文字转语音, 360云盘]
@@ -95,7 +169,7 @@ appName is :[悦微赚, 星火作文, 幼儿教育APP, 亲亲学车, 小马宝�
 appName is :[驾校一点通,  懶人聽書 , 宝贝家, 唐诗宋词, 阅读星, 开心熊宝-故事 儿歌 语音, 免费小说锐读书城]
 appName is :[携程旅行, 黄历天气, 途牛自驾, 熊猫乐园儿歌, 大众点评, 支付宝, 宝贝听妈妈讲故事]
 appName is :[美团, 布卡漫画, 支付宝, 58同城-招聘,租房,团购,二手交易,旅游,酒店预订,消费,娱乐,租车, Google地球, 极品时刻表, 携程旅行]
-appName is :[Pinkoi, Everfilter, 梨视频, 一招, 最美应用, 陪我, 意思]
+appName is :[招商银行, 今日头条, Pinkoi, Everfilter, 梨视频, 一招, 最美应用]
 appName is :[美团, 布卡漫画, 魔屏漫画, 58同城-招聘,租房,团购,二手交易,旅游,酒店预订,消费,娱乐,租车, Google地球, 极品时刻表, 携程旅行]
 appName is :[美图秀秀, 美人相机, UCamera, POCO相机, Tplus-最好用的美颜特效相机, 美图GIF, 3D全景照相机]
 appName is :[美图秀秀, 美拍 - 直播功能来了，手机直播也能美颜哦！, 天天P图, 潮自拍, 美人相机, 照片分享Instagram, 美颜相机-把手机变成自拍神器]
@@ -112,11 +186,11 @@ appName is :[3DMark, ViPER4音效驱动, 微信锁, Root精灵, Play商店破解
 appName is :[手机管家, 百度手机卫士, 摩安卫士, QQ安全中心, 安全管家(手机杀毒,系统优化,垃圾清理,省电), 网秦安全, 360平板卫士]
 appName is :[手机管家, LBE安全大师（免ROOT）, QQ安全中心, 乐安全, 百度手机卫士, 摩安卫士, 安全管家(手机杀毒,系统优化,垃圾清理,省电)]
 appName is :[保安门户, 程序加密保险箱, 图片保险柜, 广告过滤大师, 智能应用程序锁, 应用锁, 小安手机定位]
-appName is :[手机管家, QQ安全中心, 乐安全, LBE安全大师（免ROOT）, 360卫士双卡版本, 战网手机令牌, GBlocker]
+appName is :[手机管家, QQ安全中心, 乐安全, LBE安全大师（免ROOT）, 360卫士双卡版本, 战网手机令牌, ckiwi应用照妖镜]
 appName is :[有道词典-最好用的英语日语韩语多语种互译学习翻译词典, 简易背单词:英语四级六级, 新华字典-综合, 同声翻译(中英互译版), 简易背单词：英语六级考研, 沪江小D词典-多语种查词翻译宝典词霸, 简易背单词：英语]
 appName is :[有道翻译官, 有道词典-最好用的英语日语韩语多语种互译学习翻译词典, 简易背单词:英语四级六级, 新华字典-综合, 同声翻译(中英互译版), 简易背单词：英语六级考研, 沪江小D词典-多语种查词翻译宝典词霸]
 appName is :[随身翻译, 语言字典, 书法字典, 万词宝, 学易单词王, 英汉翻译, 移动翻译]
-appName is :[有道翻译官, 有道词典-最好用的英语日语韩语多语种互译学习翻译词典, 泰语翻译官, 沪江小D词典-多语种查词翻译宝典词霸, 法律术语英语词典, 丫丫日语词典2, 书法字典]
+appName is :[有道翻译官, 有道词典-最好用的英语日语韩语多语种互译学习翻译词典, 简易背单词：英语, 单词神灯, 外教社旅游英语词典 海词出品, 德语助手, 巴厘岛翻译官]
 appName is :[有信电话, GO短信, 97Call手机网络电话, 来电通, ChatON-时尚聊天软件, 爱说电话, 第四通]
 appName is :[WhatsApp Messenger, GO短信, 电信营业厅, 搜狗号码通, 智能短信 , 触宝电话, 有信电话]
 appName is :[电话+, WSK通信, 金讯, 朋友印象, 快赚电话, 微话(联通版), 5G开心聊]
@@ -139,388 +213,25 @@ appName is :[小猪理财, 垫付宝, 壹理财, 房产汽车贷款, 湖南纬�
 appName is :[中国建设银行, 百度乐彩彩票, 同花顺, 平安财富宝, 借贷宝 － 熟人借贷，人脉变钱脉，轻松玩出钱, 大智慧炒股软件Gpad版, 球探体育比分]
 appName is :[365日历-万年历, 189邮箱-支持网易、QQ、139等邮箱直接登录, 谷歌邮件, 金山词霸, 科学计算器, OfficeSuite7加强版, WPS Office]
 appName is :[多屏互动, Google云端硬盘, 金山词霸, WPS Office, CAD迷你看图, APK编辑器, 沃邮箱]
-appName is :[八百客APP, 天易派工, 金冠娱乐, 中国气体网, 云膳卖卖通, 小笔记, 我执行]
+appName is :[iOffice M2, 八百客APP, 天易派工, 金冠娱乐, 中国气体网, 云膳卖卖通, 小笔记]
 appName is :[网易邮箱大师, 金山词霸, CAD迷你看图, APK编辑器, 沃邮箱, 多屏互动, WPS Office]
 appName is :[约汗, 网体健身, 百视通NBA, 3G门户体育, 掌上NBA, 健身专家, GO比分]
 appName is :[乐视体育, 约汗, 网体健身, 百视通NBA, 3G门户体育, 掌上NBA, 健身专家]
 appName is :[点点计步器, 互运动, 黄龙体育中心, 体育 电视直播, 体育用品, HiTGO体育, 智云体育]
-appName is :[乐视体育, 学游泳, hitpost运动, 赛场号角, 马拉马拉, 苏智体育, 足球约战]
+appName is :[乐视体育, 学游泳, 欧洲杯专刊, 体育中心, 吉祥坊, 虎扑跑步, 爱骑驴]
 分类 列表：[实用工具, 聊天社区, 输入法, 浏览器, 网络购物, 交通导航, 教育阅读, 生活娱乐, 拍照摄影, 主题桌面, 系统工具, 安全防护, 词典翻译, 通话通信, 资讯新闻, 健康医疗, 影音播放, 金融理财, 电子办公, 体育竞技]
-INSTRUMENTATION_STATUS: numtests=10
+INSTRUMENTATION_STATUS: numtests=6
 INSTRUMENTATION_STATUS: stream=.
 INSTRUMENTATION_STATUS: id=UiAutomatorTestRunner
 INSTRUMENTATION_STATUS: test=testYingYongFenLei
 INSTRUMENTATION_STATUS: class=com.testcases.YingYong
-INSTRUMENTATION_STATUS: current=5
-INSTRUMENTATION_STATUS_CODE: 0
-INSTRUMENTATION_STATUS: numtests=10
-INSTRUMENTATION_STATUS: stream=
-com.testcases.Game:
-INSTRUMENTATION_STATUS: id=UiAutomatorTestRunner
-INSTRUMENTATION_STATUS: test=testGameFenLei
-INSTRUMENTATION_STATUS: class=com.testcases.Game
 INSTRUMENTATION_STATUS: current=6
-INSTRUMENTATION_STATUS_CODE: 1
-appName is :[]
-appName is :[]
-appName is :[]
-appName is :[]
-appName is :[射雕英雄传3D]
-appName is :[射雕英雄传3D]
-appName is :[]
-appName is :[射雕英雄传3D]
-INSTRUMENTATION_STATUS: numtests=10
-INSTRUMENTATION_STATUS: stream=
-Error in testGameFenLei:
-com.android.uiautomator.core.UiObjectNotFoundException: UiSelector[INSTANCE=4, RESOURCE_ID=com.mappn.gfan:id/text]
-	at com.android.uiautomator.core.UiObject.getText(UiObject.java:535)
-	at com.pubMethod.IfErrorMessageExist.ErrorMessageExist(IfErrorMessageExist.java:32)
-	at com.testcases.Game.testGameFenLei(Game.java:36)
-	at java.lang.reflect.Method.invokeNative(Native Method)
-	at com.android.uiautomator.testrunner.UiAutomatorTestRunner.start(UiAutomatorTestRunner.java:160)
-	at com.android.uiautomator.testrunner.UiAutomatorTestRunner.run(UiAutomatorTestRunner.java:96)
-	at com.android.commands.uiautomator.RunTestCommand.run(RunTestCommand.java:91)
-	at com.android.commands.uiautomator.Launcher.main(Launcher.java:83)
-	at com.android.internal.os.RuntimeInit.nativeFinishInit(Native Method)
-	at com.android.internal.os.RuntimeInit.main(RuntimeInit.java:243)
-	at dalvik.system.NativeStart.main(Native Method)
-
-INSTRUMENTATION_STATUS: id=UiAutomatorTestRunner
-INSTRUMENTATION_STATUS: test=testGameFenLei
-INSTRUMENTATION_STATUS: class=com.testcases.Game
-INSTRUMENTATION_STATUS: stack=com.android.uiautomator.core.UiObjectNotFoundException: UiSelector[INSTANCE=4, RESOURCE_ID=com.mappn.gfan:id/text]
-	at com.android.uiautomator.core.UiObject.getText(UiObject.java:535)
-	at com.pubMethod.IfErrorMessageExist.ErrorMessageExist(IfErrorMessageExist.java:32)
-	at com.testcases.Game.testGameFenLei(Game.java:36)
-	at java.lang.reflect.Method.invokeNative(Native Method)
-	at com.android.uiautomator.testrunner.UiAutomatorTestRunner.start(UiAutomatorTestRunner.java:160)
-	at com.android.uiautomator.testrunner.UiAutomatorTestRunner.run(UiAutomatorTestRunner.java:96)
-	at com.android.commands.uiautomator.RunTestCommand.run(RunTestCommand.java:91)
-	at com.android.commands.uiautomator.Launcher.main(Launcher.java:83)
-	at com.android.internal.os.RuntimeInit.nativeFinishInit(Native Method)
-	at com.android.internal.os.RuntimeInit.main(RuntimeInit.java:243)
-	at dalvik.system.NativeStart.main(Native Method)
-
-INSTRUMENTATION_STATUS: current=6
-INSTRUMENTATION_STATUS_CODE: -1
-INSTRUMENTATION_STATUS: numtests=10
-INSTRUMENTATION_STATUS: stream=
-INSTRUMENTATION_STATUS: id=UiAutomatorTestRunner
-INSTRUMENTATION_STATUS: test=testLiBao
-INSTRUMENTATION_STATUS: class=com.testcases.Game
-INSTRUMENTATION_STATUS: current=7
-INSTRUMENTATION_STATUS_CODE: 1
-INSTRUMENTATION_STATUS: numtests=10
-INSTRUMENTATION_STATUS: stream=.
-INSTRUMENTATION_STATUS: id=UiAutomatorTestRunner
-INSTRUMENTATION_STATUS: test=testLiBao
-INSTRUMENTATION_STATUS: class=com.testcases.Game
-INSTRUMENTATION_STATUS: current=7
-INSTRUMENTATION_STATUS_CODE: 0
-INSTRUMENTATION_STATUS: numtests=10
-INSTRUMENTATION_STATUS: stream=
-INSTRUMENTATION_STATUS: id=UiAutomatorTestRunner
-INSTRUMENTATION_STATUS: test=testPaiHang
-INSTRUMENTATION_STATUS: class=com.testcases.Game
-INSTRUMENTATION_STATUS: current=8
-INSTRUMENTATION_STATUS_CODE: 1
-appName is :[特技飞车, 巴啦啦魔法变身2, 保卫萝卜2, 射雕英雄传3D, 巴啦啦小魔仙冰凉冰淇淋, 巴啦啦魔法变身2, 特技飞车]
-INSTRUMENTATION_STATUS: numtests=10
-INSTRUMENTATION_STATUS: stream=.
-INSTRUMENTATION_STATUS: id=UiAutomatorTestRunner
-INSTRUMENTATION_STATUS: test=testPaiHang
-INSTRUMENTATION_STATUS: class=com.testcases.Game
-INSTRUMENTATION_STATUS: current=8
-INSTRUMENTATION_STATUS_CODE: 0
-INSTRUMENTATION_STATUS: numtests=10
-INSTRUMENTATION_STATUS: stream=
-INSTRUMENTATION_STATUS: id=UiAutomatorTestRunner
-INSTRUMENTATION_STATUS: test=testShouFa
-INSTRUMENTATION_STATUS: class=com.testcases.Game
-INSTRUMENTATION_STATUS: current=9
-INSTRUMENTATION_STATUS_CODE: 1
-appName is :[龙吟大陆, 战神传奇, 特技飞车, 口袋妖怪VS, 仙魔奇谈, 巴啦啦魔法水晶鞋]
-INSTRUMENTATION_STATUS: numtests=10
-INSTRUMENTATION_STATUS: stream=.
-INSTRUMENTATION_STATUS: id=UiAutomatorTestRunner
-INSTRUMENTATION_STATUS: test=testShouFa
-INSTRUMENTATION_STATUS: class=com.testcases.Game
-INSTRUMENTATION_STATUS: current=9
-INSTRUMENTATION_STATUS_CODE: 0
-INSTRUMENTATION_STATUS: numtests=10
-INSTRUMENTATION_STATUS: stream=
-INSTRUMENTATION_STATUS: id=UiAutomatorTestRunner
-INSTRUMENTATION_STATUS: test=testTuiJian
-INSTRUMENTATION_STATUS: class=com.testcases.Game
-INSTRUMENTATION_STATUS: current=10
-INSTRUMENTATION_STATUS_CODE: 1
-appName is :[青云志, 不良人2, 保卫萝卜2, 道友请留步, 真三国快打, 射雕英雄传3D, 巴啦啦小魔仙冰凉冰淇淋]
-INSTRUMENTATION_STATUS: numtests=10
-INSTRUMENTATION_STATUS: stream=.
-INSTRUMENTATION_STATUS: id=UiAutomatorTestRunner
-INSTRUMENTATION_STATUS: test=testTuiJian
-INSTRUMENTATION_STATUS: class=com.testcases.Game
-INSTRUMENTATION_STATUS: current=10
 INSTRUMENTATION_STATUS_CODE: 0
 INSTRUMENTATION_STATUS: stream=
-Test results for WatcherResultPrinter=......E....
-Time: 3515.634
+Test results for WatcherResultPrinter=......
+Time: 3633.174
 
-FAILURES!!!
-Tests run: 10,  Failures: 0,  Errors: 1
-
-
-INSTRUMENTATION_STATUS_CODE: -1
-INSTRUMENTATION_STATUS: numtests=1
-INSTRUMENTATION_STATUS: stream=
-com.testcases.Game:
-INSTRUMENTATION_STATUS: id=UiAutomatorTestRunner
-INSTRUMENTATION_STATUS: test=testGameFenLei
-INSTRUMENTATION_STATUS: class=com.testcases.Game
-INSTRUMENTATION_STATUS: current=1
-INSTRUMENTATION_STATUS_CODE: 1
-分类 列表：[]
-INSTRUMENTATION_STATUS: numtests=1
-INSTRUMENTATION_STATUS: stream=.
-INSTRUMENTATION_STATUS: id=UiAutomatorTestRunner
-INSTRUMENTATION_STATUS: test=testGameFenLei
-INSTRUMENTATION_STATUS: class=com.testcases.Game
-INSTRUMENTATION_STATUS: current=1
-INSTRUMENTATION_STATUS_CODE: 0
-INSTRUMENTATION_STATUS: stream=
-Test results for WatcherResultPrinter=.
-Time: 7.038
-
-OK (1 test)
-
-
-INSTRUMENTATION_STATUS_CODE: -1
-INSTRUMENTATION_STATUS: numtests=1
-INSTRUMENTATION_STATUS: stream=
-com.testcases.Game:
-INSTRUMENTATION_STATUS: id=UiAutomatorTestRunner
-INSTRUMENTATION_STATUS: test=testGameFenLei
-INSTRUMENTATION_STATUS: class=com.testcases.Game
-INSTRUMENTATION_STATUS: current=1
-INSTRUMENTATION_STATUS_CODE: 1
-appName is :[]
-appName is :[]
-appName is :[]
-appName is :[]
-appName is :[射雕英雄传3D]
-appName is :[射雕英雄传3D]
-appName is :[]
-appName is :[射雕英雄传3D]
-appName is :[]
-appName is :[]
-appName is :[]
-appName is :[]
-appName is :[]
-appName is :[]
-appName is :[]
-appName is :[]
-appName is :[坦克指挥官]
-appName is :[坦克指挥官]
-appName is :[]
-appName is :[坦克指挥官]
-INSTRUMENTATION_STATUS: numtests=1
-INSTRUMENTATION_STATUS: stream=
-Error in testGameFenLei:
-com.android.uiautomator.core.UiObjectNotFoundException: UiSelector[INSTANCE=5, RESOURCE_ID=com.mappn.gfan:id/text]
-	at com.android.uiautomator.core.UiObject.getText(UiObject.java:535)
-	at com.pubMethod.IfErrorMessageExist.ErrorMessageExist(IfErrorMessageExist.java:32)
-	at com.testcases.Game.testGameFenLei(Game.java:36)
-	at java.lang.reflect.Method.invokeNative(Native Method)
-	at com.android.uiautomator.testrunner.UiAutomatorTestRunner.start(UiAutomatorTestRunner.java:160)
-	at com.android.uiautomator.testrunner.UiAutomatorTestRunner.run(UiAutomatorTestRunner.java:96)
-	at com.android.commands.uiautomator.RunTestCommand.run(RunTestCommand.java:91)
-	at com.android.commands.uiautomator.Launcher.main(Launcher.java:83)
-	at com.android.internal.os.RuntimeInit.nativeFinishInit(Native Method)
-	at com.android.internal.os.RuntimeInit.main(RuntimeInit.java:243)
-	at dalvik.system.NativeStart.main(Native Method)
-
-INSTRUMENTATION_STATUS: id=UiAutomatorTestRunner
-INSTRUMENTATION_STATUS: test=testGameFenLei
-INSTRUMENTATION_STATUS: class=com.testcases.Game
-INSTRUMENTATION_STATUS: stack=com.android.uiautomator.core.UiObjectNotFoundException: UiSelector[INSTANCE=5, RESOURCE_ID=com.mappn.gfan:id/text]
-	at com.android.uiautomator.core.UiObject.getText(UiObject.java:535)
-	at com.pubMethod.IfErrorMessageExist.ErrorMessageExist(IfErrorMessageExist.java:32)
-	at com.testcases.Game.testGameFenLei(Game.java:36)
-	at java.lang.reflect.Method.invokeNative(Native Method)
-	at com.android.uiautomator.testrunner.UiAutomatorTestRunner.start(UiAutomatorTestRunner.java:160)
-	at com.android.uiautomator.testrunner.UiAutomatorTestRunner.run(UiAutomatorTestRunner.java:96)
-	at com.android.commands.uiautomator.RunTestCommand.run(RunTestCommand.java:91)
-	at com.android.commands.uiautomator.Launcher.main(Launcher.java:83)
-	at com.android.internal.os.RuntimeInit.nativeFinishInit(Native Method)
-	at com.android.internal.os.RuntimeInit.main(RuntimeInit.java:243)
-	at dalvik.system.NativeStart.main(Native Method)
-
-INSTRUMENTATION_STATUS: current=1
-INSTRUMENTATION_STATUS_CODE: -1
-INSTRUMENTATION_STATUS: stream=
-Test results for WatcherResultPrinter=.E
-Time: 99.604
-
-FAILURES!!!
-Tests run: 1,  Failures: 0,  Errors: 1
-
-
-INSTRUMENTATION_STATUS_CODE: -1
-INSTRUMENTATION_STATUS: numtests=1
-INSTRUMENTATION_STATUS: stream=
-com.testcases.Game:
-INSTRUMENTATION_STATUS: id=UiAutomatorTestRunner
-INSTRUMENTATION_STATUS: test=testGameFenLei
-INSTRUMENTATION_STATUS: class=com.testcases.Game
-INSTRUMENTATION_STATUS: current=1
-INSTRUMENTATION_STATUS_CODE: 1
-appName is :[]
-appName is :[]
-appName is :[]
-appName is :[]
-appName is :[射雕英雄传3D]
-appName is :[射雕英雄传3D]
-appName is :[]
-appName is :[射雕英雄传3D]
-appName is :[]
-appName is :[]
-appName is :[]
-appName is :[]
-appName is :[]
-appName is :[]
-appName is :[]
-appName is :[]
-appName is :[坦克指挥官]
-appName is :[坦克指挥官]
-appName is :[]
-appName is :[坦克指挥官]
-INSTRUMENTATION_STATUS: numtests=1
-INSTRUMENTATION_STATUS: stream=
-Error in testGameFenLei:
-com.android.uiautomator.core.UiObjectNotFoundException: UiSelector[INSTANCE=5, RESOURCE_ID=com.mappn.gfan:id/text]
-	at com.android.uiautomator.core.UiObject.getText(UiObject.java:535)
-	at com.pubMethod.IfErrorMessageExist.ErrorMessageExist(IfErrorMessageExist.java:32)
-	at com.testcases.Game.testGameFenLei(Game.java:36)
-	at java.lang.reflect.Method.invokeNative(Native Method)
-	at com.android.uiautomator.testrunner.UiAutomatorTestRunner.start(UiAutomatorTestRunner.java:160)
-	at com.android.uiautomator.testrunner.UiAutomatorTestRunner.run(UiAutomatorTestRunner.java:96)
-	at com.android.commands.uiautomator.RunTestCommand.run(RunTestCommand.java:91)
-	at com.android.commands.uiautomator.Launcher.main(Launcher.java:83)
-	at com.android.internal.os.RuntimeInit.nativeFinishInit(Native Method)
-	at com.android.internal.os.RuntimeInit.main(RuntimeInit.java:243)
-	at dalvik.system.NativeStart.main(Native Method)
-
-INSTRUMENTATION_STATUS: id=UiAutomatorTestRunner
-INSTRUMENTATION_STATUS: test=testGameFenLei
-INSTRUMENTATION_STATUS: class=com.testcases.Game
-INSTRUMENTATION_STATUS: stack=com.android.uiautomator.core.UiObjectNotFoundException: UiSelector[INSTANCE=5, RESOURCE_ID=com.mappn.gfan:id/text]
-	at com.android.uiautomator.core.UiObject.getText(UiObject.java:535)
-	at com.pubMethod.IfErrorMessageExist.ErrorMessageExist(IfErrorMessageExist.java:32)
-	at com.testcases.Game.testGameFenLei(Game.java:36)
-	at java.lang.reflect.Method.invokeNative(Native Method)
-	at com.android.uiautomator.testrunner.UiAutomatorTestRunner.start(UiAutomatorTestRunner.java:160)
-	at com.android.uiautomator.testrunner.UiAutomatorTestRunner.run(UiAutomatorTestRunner.java:96)
-	at com.android.commands.uiautomator.RunTestCommand.run(RunTestCommand.java:91)
-	at com.android.commands.uiautomator.Launcher.main(Launcher.java:83)
-	at com.android.internal.os.RuntimeInit.nativeFinishInit(Native Method)
-	at com.android.internal.os.RuntimeInit.main(RuntimeInit.java:243)
-	at dalvik.system.NativeStart.main(Native Method)
-
-INSTRUMENTATION_STATUS: current=1
-INSTRUMENTATION_STATUS_CODE: -1
-INSTRUMENTATION_STATUS: stream=
-Test results for WatcherResultPrinter=.E
-Time: 96.077
-
-FAILURES!!!
-Tests run: 1,  Failures: 0,  Errors: 1
-
-
-INSTRUMENTATION_STATUS_CODE: -1
-INSTRUMENTATION_STATUS: numtests=1
-INSTRUMENTATION_STATUS: stream=
-com.testcases.Game:
-INSTRUMENTATION_STATUS: id=UiAutomatorTestRunner
-INSTRUMENTATION_STATUS: test=testGameFenLei
-INSTRUMENTATION_STATUS: class=com.testcases.Game
-INSTRUMENTATION_STATUS: current=1
-INSTRUMENTATION_STATUS_CODE: 1
-appName is :[]
-appName is :[]
-appName is :[]
-appName is :[]
-appName is :[射雕英雄传3D]
-appName is :[射雕英雄传3D]
-appName is :[]
-appName is :[射雕英雄传3D]
-appName is :[]
-appName is :[]
-appName is :[]
-appName is :[]
-appName is :[]
-appName is :[]
-appName is :[]
-appName is :[]
-appName is :[坦克指挥官]
-appName is :[坦克指挥官]
-appName is :[]
-appName is :[坦克指挥官]
-appName is :[保卫萝卜2, 巴啦啦小魔仙冰凉冰淇淋, 巴啦啦魔法变身2, 迷你世界, 巴啦啦魔法美甲2, 巴啦啦魔法水晶鞋, 巴啦啦魔法变身3]
-appName is :[保卫萝卜2, 巴啦啦小魔仙冰凉冰淇淋, 巴啦啦魔法变身2, 迷你世界, 巴啦啦魔法美甲2, 巴啦啦魔法水晶鞋, 巴啦啦魔法变身3]
-appName is :[巴啦啦魔法水晶鞋]
-appName is :[巴啦啦魔法变身2, 保卫萝卜2, 巴啦啦魔法水晶鞋, 迷你世界, 巴啦啦魔法美甲2, 巴啦啦小魔仙冰凉冰淇淋, 巴啦啦魔法变身3]
-appName is :[]
-appName is :[]
-appName is :[]
-appName is :[]
-appName is :[]
-appName is :[]
-appName is :[]
-appName is :[]
-appName is :[特技飞车]
-appName is :[特技飞车]
-appName is :[]
-appName is :[特技飞车]
-INSTRUMENTATION_STATUS: numtests=1
-INSTRUMENTATION_STATUS: stream=
-Error in testGameFenLei:
-com.android.uiautomator.core.UiObjectNotFoundException: UiSelector[INSTANCE=9, RESOURCE_ID=com.mappn.gfan:id/text]
-	at com.android.uiautomator.core.UiObject.getText(UiObject.java:535)
-	at com.pubMethod.IfErrorMessageExist.ErrorMessageExist(IfErrorMessageExist.java:32)
-	at com.testcases.Game.testGameFenLei(Game.java:36)
-	at java.lang.reflect.Method.invokeNative(Native Method)
-	at com.android.uiautomator.testrunner.UiAutomatorTestRunner.start(UiAutomatorTestRunner.java:160)
-	at com.android.uiautomator.testrunner.UiAutomatorTestRunner.run(UiAutomatorTestRunner.java:96)
-	at com.android.commands.uiautomator.RunTestCommand.run(RunTestCommand.java:91)
-	at com.android.commands.uiautomator.Launcher.main(Launcher.java:83)
-	at com.android.internal.os.RuntimeInit.nativeFinishInit(Native Method)
-	at com.android.internal.os.RuntimeInit.main(RuntimeInit.java:243)
-	at dalvik.system.NativeStart.main(Native Method)
-
-INSTRUMENTATION_STATUS: id=UiAutomatorTestRunner
-INSTRUMENTATION_STATUS: test=testGameFenLei
-INSTRUMENTATION_STATUS: class=com.testcases.Game
-INSTRUMENTATION_STATUS: stack=com.android.uiautomator.core.UiObjectNotFoundException: UiSelector[INSTANCE=9, RESOURCE_ID=com.mappn.gfan:id/text]
-	at com.android.uiautomator.core.UiObject.getText(UiObject.java:535)
-	at com.pubMethod.IfErrorMessageExist.ErrorMessageExist(IfErrorMessageExist.java:32)
-	at com.testcases.Game.testGameFenLei(Game.java:36)
-	at java.lang.reflect.Method.invokeNative(Native Method)
-	at com.android.uiautomator.testrunner.UiAutomatorTestRunner.start(UiAutomatorTestRunner.java:160)
-	at com.android.uiautomator.testrunner.UiAutomatorTestRunner.run(UiAutomatorTestRunner.java:96)
-	at com.android.commands.uiautomator.RunTestCommand.run(RunTestCommand.java:91)
-	at com.android.commands.uiautomator.Launcher.main(Launcher.java:83)
-	at com.android.internal.os.RuntimeInit.nativeFinishInit(Native Method)
-	at com.android.internal.os.RuntimeInit.main(RuntimeInit.java:243)
-	at dalvik.system.NativeStart.main(Native Method)
-
-INSTRUMENTATION_STATUS: current=1
-INSTRUMENTATION_STATUS_CODE: -1
-INSTRUMENTATION_STATUS: stream=
-Test results for WatcherResultPrinter=.E
-Time: 265.635
-
-FAILURES!!!
-Tests run: 1,  Failures: 0,  Errors: 1
+OK (6 tests)
 
 
 INSTRUMENTATION_STATUS_CODE: -1

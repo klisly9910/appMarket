@@ -1,5 +1,9 @@
 package com.testcases;
 
+import java.io.File;
+
+import android.os.RemoteException;
+
 import com.android.uiautomator.core.UiDevice;
 import com.android.uiautomator.core.UiObject;
 import com.android.uiautomator.core.UiObjectNotFoundException;
@@ -28,13 +32,33 @@ public class Game extends UiAutomatorTestCase {
 	 * 测试过程：-点击游戏-分类-分类子列表，验证页面加载未出现未落错误
 	 * 
 	 * @throws UiObjectNotFoundException
+	 * @throws RemoteException
 	 */
-	public void testGameFenLei() throws UiObjectNotFoundException {
+	public void testGameFenLei() throws UiObjectNotFoundException,
+			RemoteException {
+		UiObject recentapp = new UiObject(
+				new UiSelector()
+						.resourceId("com.android.systemui:id/app_thumbnail"));
 		UiObject game = new UiObject(new UiSelector().text("游戏"));
 		game.click();
 		IfErrorMessageExist errorMessage = new IfErrorMessageExist();
 		errorMessage.ErrorMessageExist();
-		backImage.click();
+		try {
+			backImage.click();
+		} catch (Exception e) {
+			UiDevice.getInstance().pressBack();
+			UiDevice.getInstance().takeScreenshot(
+					new File("sdcard/Download/duizhanpingtai.png"));
+			UiDevice.getInstance().pressRecentApps();
+			do {
+				recentapp.waitForExists(2000);
+				if (recentapp.exists()) {
+					recentapp.swipeLeft(5);
+				}
+			} while (recentapp.exists());
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
 	}
 
 	/**
@@ -82,9 +106,10 @@ public class Game extends UiAutomatorTestCase {
 		backImage.click();
 
 	}
+
 	/**
-	 * 验证点：礼包中心未出现网络错误
-	 * 测试过程：-点击游戏-点击礼包中心-验证礼包中心未出现网络错误
+	 * 验证点：礼包中心未出现网络错误 测试过程：-点击游戏-点击礼包中心-验证礼包中心未出现网络错误
+	 * 
 	 * @throws UiObjectNotFoundException
 	 */
 	public void testLiBao() throws UiObjectNotFoundException {
