@@ -2,8 +2,6 @@ package com.testcases;
 
 import java.io.File;
 
-import android.R.integer;
-
 import com.android.uiautomator.core.UiCollection;
 import com.android.uiautomator.core.UiDevice;
 import com.android.uiautomator.core.UiObject;
@@ -12,7 +10,6 @@ import com.android.uiautomator.core.UiSelector;
 import com.android.uiautomator.testrunner.UiAutomatorTestCase;
 import com.pubMethod.Login;
 import com.pubMethod.Logout;
-import com.sun.jndi.ldap.Ber;
 
 public class YiYuanQiang extends UiAutomatorTestCase {
 	UiObject netError = new UiObject(
@@ -238,7 +235,7 @@ public class YiYuanQiang extends UiAutomatorTestCase {
 			login.login();
 			qingdan.click();
 		}
-		
+
 		if (billList.exists()) {
 			int billCount = billList.getChildCount(new UiSelector()
 					.resourceId("com.mappn.gfan:id/bill_ll_layout"));
@@ -267,7 +264,16 @@ public class YiYuanQiang extends UiAutomatorTestCase {
 		logout.logout();
 		backImage.click();
 	}
-
+	/**
+	 * 验证点：删除清单
+	 * 测试过程：
+	 * -已登录，直接进入清单页面
+	 * -未登录：调用登录方法，登录后点击进入清单页面
+	 * -清单页有订单：删除前截图-点击编辑-选择一笔订单-点击删除-点击提示[确定]-删除后截图，对比两张截图
+	 * -清单页没有订单：验证[开始抢宝]按钮存在-点击[开始抢宝]-验证跳转到一元抢首页
+	 * 
+	 * @throws UiObjectNotFoundException
+	 */
 	public void testDeleteQingDan() throws UiObjectNotFoundException {
 		UiObject yyq = new UiObject(new UiSelector().text("一元抢"));
 		yyq.click();
@@ -280,25 +286,45 @@ public class YiYuanQiang extends UiAutomatorTestCase {
 			login.login();
 			qingdan.click();
 		}
-		
-		UiObject edit = new UiObject(
-				new UiSelector().resourceId("com.mappn.gfan:id/bill_tv_edit"));
-		edit.click();
-		UiDevice.getInstance().takeScreenshot(
-				new File("/sdcard/download/beforeDelete.png"));
-		UiObject checkBox = new UiObject(
+		UiCollection billList = new UiCollection(
 				new UiSelector()
-						.resourceId("com.mappn.gfan:id/bill_item_cb_check"));
-		checkBox.click();
-		UiObject deleteBtn = new UiObject(
-				new UiSelector()
-						.resourceId("com.mappn.gfan:id/bill_tv_delete_submit"));
-		deleteBtn.click();
-		UiObject positiveBtn = new UiObject(
-				new UiSelector().resourceId("com.mappn.gfan:id/btn_positive"));
-		positiveBtn.click();
-		UiDevice.getInstance().takeScreenshot(
-				new File("/sdcard/download/afterDelete.png"));
-		backImage.click();
+						.resourceId("com.mappn.gfan:id/bill_lv_list_view"));
+		if (billList.exists()) {
+
+			UiObject edit = new UiObject(
+					new UiSelector()
+							.resourceId("com.mappn.gfan:id/bill_tv_edit"));
+			edit.clickAndWaitForNewWindow(2000);
+			//删除订单前截图
+			UiDevice.getInstance().takeScreenshot(
+					new File("/sdcard/download/beforeDelete.png"));
+			UiObject checkBox = new UiObject(
+					new UiSelector()
+							.resourceId("com.mappn.gfan:id/bill_item_cb_check"));
+			checkBox.click();
+			UiObject deleteBtn = new UiObject(
+					new UiSelector()
+							.resourceId("com.mappn.gfan:id/bill_tv_delete_submit"));
+			deleteBtn.click();
+			UiObject positiveBtn = new UiObject(
+					new UiSelector()
+							.resourceId("com.mappn.gfan:id/btn_positive"));
+			positiveBtn.clickAndWaitForNewWindow();
+			//删除订单后截图
+			UiDevice.getInstance().takeScreenshot(
+					new File("/sdcard/download/afterDelete.png"));
+			backImage.click();
+		} else if (!billList.exists()) {
+			UiObject emptyGo = new UiObject(
+					new UiSelector()
+							.resourceId("com.mappn.gfan:id/bill_empty_go"));
+			assertTrue(emptyGo.exists());
+			emptyGo.click();
+			UiObject homeList = new UiObject(
+					new UiSelector()
+							.resourceId("com.mappn.gfan:id/yyq_home_rlv_list"));
+			assertTrue(homeList.exists());
+			backImage.click();
+		}
 	}
 }
