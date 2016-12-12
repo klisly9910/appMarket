@@ -9,6 +9,7 @@ import com.inputmethod.Utf7ImeHelper;
 public class Login extends UiAutomatorTestCase {
 	/**
 	 * 登录界面-输入用户名-输入密码-点击登录->登录成功
+	 * 
 	 * @throws UiObjectNotFoundException
 	 */
 	public void login() throws UiObjectNotFoundException {
@@ -22,7 +23,10 @@ public class Login extends UiAutomatorTestCase {
 		password.setText(Utf7ImeHelper.e("123456"));
 		UiObject signBtn = new UiObject(
 				new UiSelector().resourceId("com.mappn.gfan:id/tv_sign_in"));
-		signBtn.click();
+		signBtn.clickAndWaitForNewWindow();
+		UiObject userIcon = new UiObject(
+				new UiSelector().resourceId("com.mappn.gfan:id/logged_iv_icon"));
+		assertTrue(userIcon.exists());
 	}
 
 }

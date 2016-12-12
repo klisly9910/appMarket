@@ -1,23 +1,37 @@
-INSTRUMENTATION_STATUS: numtests=1
+INSTRUMENTATION_STATUS: numtests=2
 INSTRUMENTATION_STATUS: stream=
-com.testcases.YiYuanQiang:
+com.testcases.PersonCenteryyq:
 INSTRUMENTATION_STATUS: id=UiAutomatorTestRunner
-INSTRUMENTATION_STATUS: test=testDeleteQingDan
-INSTRUMENTATION_STATUS: class=com.testcases.YiYuanQiang
+INSTRUMENTATION_STATUS: test=testBaseInfo
+INSTRUMENTATION_STATUS: class=com.testcases.PersonCenteryyq
 INSTRUMENTATION_STATUS: current=1
 INSTRUMENTATION_STATUS_CODE: 1
-INSTRUMENTATION_STATUS: numtests=1
+INSTRUMENTATION_STATUS: numtests=2
 INSTRUMENTATION_STATUS: stream=.
 INSTRUMENTATION_STATUS: id=UiAutomatorTestRunner
-INSTRUMENTATION_STATUS: test=testDeleteQingDan
-INSTRUMENTATION_STATUS: class=com.testcases.YiYuanQiang
+INSTRUMENTATION_STATUS: test=testBaseInfo
+INSTRUMENTATION_STATUS: class=com.testcases.PersonCenteryyq
 INSTRUMENTATION_STATUS: current=1
 INSTRUMENTATION_STATUS_CODE: 0
+INSTRUMENTATION_STATUS: numtests=2
 INSTRUMENTATION_STATUS: stream=
-Test results for WatcherResultPrinter=.
-Time: 13.796
+INSTRUMENTATION_STATUS: id=UiAutomatorTestRunner
+INSTRUMENTATION_STATUS: test=testEditNickName
+INSTRUMENTATION_STATUS: class=com.testcases.PersonCenteryyq
+INSTRUMENTATION_STATUS: current=2
+INSTRUMENTATION_STATUS_CODE: 1
+INSTRUMENTATION_STATUS: numtests=2
+INSTRUMENTATION_STATUS: stream=.
+INSTRUMENTATION_STATUS: id=UiAutomatorTestRunner
+INSTRUMENTATION_STATUS: test=testEditNickName
+INSTRUMENTATION_STATUS: class=com.testcases.PersonCenteryyq
+INSTRUMENTATION_STATUS: current=2
+INSTRUMENTATION_STATUS_CODE: 0
+INSTRUMENTATION_STATUS: stream=
+Test results for WatcherResultPrinter=..
+Time: 63.287
 
-OK (1 test)
+OK (2 tests)
 
 
 INSTRUMENTATION_STATUS_CODE: -1
