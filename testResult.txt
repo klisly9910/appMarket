@@ -1,51 +1,51 @@
-INSTRUMENTATION_STATUS: numtests=3
+INSTRUMENTATION_STATUS: numtests=1
 INSTRUMENTATION_STATUS: stream=
-com.testcases.EditAddress:
+com.testcases.ChangePassword:
 INSTRUMENTATION_STATUS: id=UiAutomatorTestRunner
-INSTRUMENTATION_STATUS: test=testAddaddress
-INSTRUMENTATION_STATUS: class=com.testcases.EditAddress
+INSTRUMENTATION_STATUS: test=testChangePwd
+INSTRUMENTATION_STATUS: class=com.testcases.ChangePassword
 INSTRUMENTATION_STATUS: current=1
 INSTRUMENTATION_STATUS_CODE: 1
-INSTRUMENTATION_STATUS: numtests=3
-INSTRUMENTATION_STATUS: stream=.
-INSTRUMENTATION_STATUS: id=UiAutomatorTestRunner
-INSTRUMENTATION_STATUS: test=testAddaddress
-INSTRUMENTATION_STATUS: class=com.testcases.EditAddress
-INSTRUMENTATION_STATUS: current=1
-INSTRUMENTATION_STATUS_CODE: 0
-INSTRUMENTATION_STATUS: numtests=3
+INSTRUMENTATION_STATUS: numtests=1
 INSTRUMENTATION_STATUS: stream=
-INSTRUMENTATION_STATUS: id=UiAutomatorTestRunner
-INSTRUMENTATION_STATUS: test=testDeleteAddress
-INSTRUMENTATION_STATUS: class=com.testcases.EditAddress
-INSTRUMENTATION_STATUS: current=2
-INSTRUMENTATION_STATUS_CODE: 1
-INSTRUMENTATION_STATUS: numtests=3
-INSTRUMENTATION_STATUS: stream=.
-INSTRUMENTATION_STATUS: id=UiAutomatorTestRunner
-INSTRUMENTATION_STATUS: test=testDeleteAddress
-INSTRUMENTATION_STATUS: class=com.testcases.EditAddress
-INSTRUMENTATION_STATUS: current=2
-INSTRUMENTATION_STATUS_CODE: 0
-INSTRUMENTATION_STATUS: numtests=3
-INSTRUMENTATION_STATUS: stream=
-INSTRUMENTATION_STATUS: id=UiAutomatorTestRunner
-INSTRUMENTATION_STATUS: test=testEditAddress
-INSTRUMENTATION_STATUS: class=com.testcases.EditAddress
-INSTRUMENTATION_STATUS: current=3
-INSTRUMENTATION_STATUS_CODE: 1
-INSTRUMENTATION_STATUS: numtests=3
-INSTRUMENTATION_STATUS: stream=.
-INSTRUMENTATION_STATUS: id=UiAutomatorTestRunner
-INSTRUMENTATION_STATUS: test=testEditAddress
-INSTRUMENTATION_STATUS: class=com.testcases.EditAddress
-INSTRUMENTATION_STATUS: current=3
-INSTRUMENTATION_STATUS_CODE: 0
-INSTRUMENTATION_STATUS: stream=
-Test results for WatcherResultPrinter=...
-Time: 135.612
+Failure in testChangePwd:
+junit.framework.AssertionFailedError
+	at com.testcases.ChangePassword.signIn(ChangePassword.java:53)
+	at com.testcases.ChangePassword.openPersonCenter(ChangePassword.java:66)
+	at com.testcases.ChangePassword.testChangePwd(ChangePassword.java:75)
+	at java.lang.reflect.Method.invokeNative(Native Method)
+	at com.android.uiautomator.testrunner.UiAutomatorTestRunner.start(UiAutomatorTestRunner.java:160)
+	at com.android.uiautomator.testrunner.UiAutomatorTestRunner.run(UiAutomatorTestRunner.java:96)
+	at com.android.commands.uiautomator.RunTestCommand.run(RunTestCommand.java:91)
+	at com.android.commands.uiautomator.Launcher.main(Launcher.java:83)
+	at com.android.internal.os.RuntimeInit.nativeFinishInit(Native Method)
+	at com.android.internal.os.RuntimeInit.main(RuntimeInit.java:243)
+	at dalvik.system.NativeStart.main(Native Method)
 
-OK (3 tests)
+INSTRUMENTATION_STATUS: id=UiAutomatorTestRunner
+INSTRUMENTATION_STATUS: test=testChangePwd
+INSTRUMENTATION_STATUS: class=com.testcases.ChangePassword
+INSTRUMENTATION_STATUS: stack=junit.framework.AssertionFailedError
+	at com.testcases.ChangePassword.signIn(ChangePassword.java:53)
+	at com.testcases.ChangePassword.openPersonCenter(ChangePassword.java:66)
+	at com.testcases.ChangePassword.testChangePwd(ChangePassword.java:75)
+	at java.lang.reflect.Method.invokeNative(Native Method)
+	at com.android.uiautomator.testrunner.UiAutomatorTestRunner.start(UiAutomatorTestRunner.java:160)
+	at com.android.uiautomator.testrunner.UiAutomatorTestRunner.run(UiAutomatorTestRunner.java:96)
+	at com.android.commands.uiautomator.RunTestCommand.run(RunTestCommand.java:91)
+	at com.android.commands.uiautomator.Launcher.main(Launcher.java:83)
+	at com.android.internal.os.RuntimeInit.nativeFinishInit(Native Method)
+	at com.android.internal.os.RuntimeInit.main(RuntimeInit.java:243)
+	at dalvik.system.NativeStart.main(Native Method)
+
+INSTRUMENTATION_STATUS: current=1
+INSTRUMENTATION_STATUS_CODE: -2
+INSTRUMENTATION_STATUS: stream=
+Test results for WatcherResultPrinter=.F
+Time: 12.869
+
+FAILURES!!!
+Tests run: 1,  Failures: 1,  Errors: 0
 
 
 INSTRUMENTATION_STATUS_CODE: -1
